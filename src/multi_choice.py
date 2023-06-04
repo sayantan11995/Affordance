@@ -9,14 +9,17 @@ import datasets
 from transformers import BertTokenizer, BertForSequenceClassification, AutoModelForSequenceClassification, AdamW, get_linear_schedule_with_warmup, BertConfig
 from transformers import AutoModelForMaskedLM, AutoTokenizer, T5ForConditionalGeneration, T5Tokenizer
 from transformers import pipeline
-
 import numpy as np
+
+from utils import eval
+
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 filename = "../data/ECCV_affordance_data.tsv"
-# filename = "../data/toloka_annotated_data.tsv"
-# filename = "../data/final_annotated_data.tsv"
+filename = "../data/toloka_annotated_data.tsv"
+filename = "../data/final_annotated_data.tsv"
+# filename = "../data/Daivik_annotated.tsv"
 
 data = pd.read_csv(filename, sep='\t')
 
@@ -41,21 +44,23 @@ def init_model(model_name):
         model = pipeline("zero-shot-classification", model="roberta-large-mnli", device=0)
 
     elif model_name == "bart":
-        model = pipeline("zero-shot-classification", model="facebook/bart-large", device=0)
-    
+        model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=0)
+    elif model_name == "bert":
+        model = pipeline("zero-shot-classification", model="sledz08/finetuned-bert-piqa", device=0)
     else:
         print("Error: model not supported!!!\nSupported NLI models: [roberta, bart]")
 
     return model
 
-model = init_model('roberta')
+model = init_model('bart')
 
 def predict_affordance_proba(model, sentence, object):
     word2scores = {}
 
     choices =  [object + " can be used for " + affordance + " by human"  for affordance in classes]
+    choices = [affordance for affordance in classes]
 
-    model_output = model(sentence, choices)
+    model_output = model(sentence, choices, multi_label=True)
     labels = model_output['labels']
     scores = model_output['scores']
     option2scores = {labels[i]: scores[i] for i in range(len(choices))}
@@ -73,20 +78,27 @@ def predict_affordance_proba(model, sentence, object):
     return word2scores
 
 
-
+## Initialize to calculate Accuracy
 gt_affordance = {}
 correct = 0
 wrong = 0
 
+## Initialize to calculate Mean Average Precision
+ground_truth_classes = []
+predicted_classes = []
+
+
 for ids, rows in data.iterrows():
 # predicted_affordances = predict_affordance_proba(model, sentence, object)
-
+    # if ids >=200:
+    #     break
     positive_classes = []
     negative_classes = []
     sentence = rows[0]
     object = rows[1]
 
     predicted_affordances = predict_affordance_proba(model, sentence, object)
+    sorted_predicted_affordances = dict(sorted(predicted_affordances.items(), key=lambda item: item[1], reverse=True))
 
     for itr in range(2, data.shape[1]):
         class_name = list(data.columns)[itr].lower()
@@ -113,8 +125,15 @@ for ids, rows in data.iterrows():
 
         print((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
 
-    # break
+        ground_truth_classes.append(positive_classes)
+        predicted_classes.append(list(sorted_predicted_affordances.keys()))
+        # print(sorted_predicted_affordances)
+        # print(positive_classes)
+
+    # if ids > 5:
+    #     break
 
 accuracy = correct / (correct+wrong)
 
 print("Accuracy: %s"%accuracy )
+print("MAP: %s" %eval.mapk(ground_truth_classes, predicted_classes, 15))

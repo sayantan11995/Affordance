@@ -13,14 +13,20 @@ import clip
 import numpy as np
 import pickle
 from PIL import Image, ImageFile
+from utils import eval
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+image_type = 'retrieval'
+image_type = 'generation'
+
 filename = "../data/ECCV_affordance_data.tsv"
-# filename = "../data/toloka_annotated_data.tsv"
-# filename = "../data/final_annotated_data.tsv"
+filename = "../data/toloka_annotated_data.tsv"
+filename = "../data/final_annotated_data.tsv"
+filename = "../data/Daivik_annotated.tsv"
 
 data = pd.read_csv(filename, sep='\t')
 
@@ -84,24 +90,13 @@ def get_image_embedding(img_path):
     encoded_image = model.encode_image(images)
     return encoded_image
 
-# def vicomte(test_data, imagine_type):
-#     test_data, _, prompts, _, candidates = test_data
-#     word2scores = {data[0]: [] for data in test_data}
-
-#     for prompt in prompts:
-#         for data in tqdm(test_data):
-#             candidate_embeddings = get_text_embeddings([prompt.format(candidate) for candidate in candidates])
-#             target_embedding = pickle.load(open("../image_features/{}/vicomte/{}.p".format(imagine_type, data[0].replace("/", "_")), "rb")).to(device)
-#             pred_scores = torch.mean(target_embedding @ candidate_embeddings.T, dim=0).tolist()
-#             word2scores[data[0]].append(pred_scores)
-
-#     return word2scores
 
 def predict_affordance_proba(model, sentence, object, image_path_list):
     word2scores = {}
 
     ## image embeddings of the sentence/object * text embedding
     choices =  [object + " can be used for " + affordance + " by human"  for affordance in classes]
+    choices = [affordance for affordance in classes]
 
     text_embeddings = get_text_embeddings(choices)
 
@@ -135,19 +130,27 @@ gt_affordance = {}
 correct = 0
 wrong = 0
 
+## Initialize to calculate Mean Average Precision
+ground_truth_classes = []
+predicted_classes = []
+
 for ids, rows in data.iterrows():
 # predicted_affordances = predict_affordance_proba(model, sentence, object)
-
+    if ids >= 200:
+        break
     positive_classes = []
     negative_classes = []
     sentence = rows[0]
     object = rows[1]
 
-    image_path = f'../data/test_images/retrieval/{ids}'
+    image_path = f'../data/test_images/generation/{image_type}/{ids}'
+    image_path = f'../data/test_images/{image_type}/{ids}'
+
     image_files = os.listdir(image_path)
     image_path_list = [os.path.join(image_path, image_file) for image_file in image_files]
 
     predicted_affordances = predict_affordance_proba(model, sentence, object, image_path_list)
+    sorted_predicted_affordances = dict(sorted(predicted_affordances.items(), key=lambda item: item[1], reverse=True))
 
     for itr in range(2, data.shape[1]):
         class_name = list(data.columns)[itr].lower()
@@ -174,8 +177,12 @@ for ids, rows in data.iterrows():
 
         print((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
 
+        ground_truth_classes.append(positive_classes)
+        predicted_classes.append(list(sorted_predicted_affordances.keys()))
+
     # break
 
 accuracy = correct / (correct+wrong)
 
 print("Accuracy: %s"%accuracy )
+print("MAP: %s" %eval.mapk(ground_truth_classes, predicted_classes, 15))
