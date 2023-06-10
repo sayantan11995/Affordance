@@ -20,6 +20,7 @@ filename = "../data/ECCV_affordance_data.tsv"
 filename = "../data/toloka_annotated_data.tsv"
 filename = "../data/final_annotated_data.tsv"
 # filename = "../data/Daivik_annotated.tsv"
+filename = "../data/rare_object_annotated_data.tsv"
 
 data = pd.read_csv(filename, sep='\t')
 
@@ -52,7 +53,9 @@ def init_model(model_name):
 
     return model
 
-model = init_model('bart')
+selected_model = 'bart'
+model = init_model(selected_model)
+print(f"======================== Selected Model: {selected_model}")
 
 def predict_affordance_proba(model, sentence, object):
     word2scores = {}
@@ -82,6 +85,7 @@ def predict_affordance_proba(model, sentence, object):
 gt_affordance = {}
 correct = 0
 wrong = 0
+avg_acc = []
 
 ## Initialize to calculate Mean Average Precision
 ground_truth_classes = []
@@ -124,9 +128,14 @@ for ids, rows in data.iterrows():
                     wrong += 1
 
         print((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
+        avg_acc.append((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
 
         ground_truth_classes.append(positive_classes)
         predicted_classes.append(list(sorted_predicted_affordances.keys()))
+        # print(object)
+        # print(list(sorted_predicted_affordances.keys()))
+        # print(positive_classes)
+        # print("#"*50)
         # print(sorted_predicted_affordances)
         # print(positive_classes)
 
@@ -137,3 +146,4 @@ accuracy = correct / (correct+wrong)
 
 print("Accuracy: %s"%accuracy )
 print("MAP: %s" %eval.mapk(ground_truth_classes, predicted_classes, 15))
+print("Accuracy: %s"%(sum(avg_acc)/len(avg_acc)))

@@ -21,7 +21,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 image_type = 'retrieval'
-image_type = 'generation'
+# image_type = 'generation'
 
 filename = "../data/ECCV_affordance_data.tsv"
 filename = "../data/toloka_annotated_data.tsv"

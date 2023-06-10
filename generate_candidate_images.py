@@ -21,10 +21,13 @@ pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5",
 device = 'cuda' if torch.cuda().is_available() else 'cpu'
 pipe = pipe.to(device)
 
-## From affordance annotatation
-affordance_gt = pd.read_csv("data/ECCV_affordance_data.tsv", sep='\t')
-# affordance_gt = affordance_gt.rename(columns={'Unnamed: 0': 'objects'})
-affordance_gt.head()
+## files
+filename = "data/ECCV_affordance_data.tsv"
+filename = "data/toloka_annotated_data.tsv"
+filename = "data/final_annotated_data.tsv"
+# filename = "data/Daivik_annotated.tsv"
+
+data = pd.read_csv(filename, sep='\t')
 
 candidate_image_data = []
 candidate_id = 0
@@ -42,7 +45,7 @@ try:
 except:
     pass
 
-for id, rows in tqdm(affordance_gt.iterrows()):
+for id, rows in tqdm(data.iterrows()):
 
     text = rows[0] ## If index column is present then text should be rows[1]
     nps = rows[1]

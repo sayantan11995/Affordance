@@ -25,8 +25,7 @@ print('Using device:', device)
 
 dataset = datasets.load_dataset("piqa")
 
-# model_name = "SpanBERT/spanbert-base-cased"
-model_name = "bert-base-uncased"
+model_name = "bert-large-uncased"
 
 tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
 
@@ -72,14 +71,15 @@ data_collator = default_data_collator
 # trainer = transformers.Trainer(
 #     model=model,
 #     args=transformers.TrainingArguments(
-#         output_dir="./models/bert_piqa",
+#         output_dir="./models/bert_large_piqa",
 #         overwrite_output_dir=True,
 # #         evaluation_strategy = 'epoch',
 #         learning_rate=5e-5,
 #         do_train=True,
 #         num_train_epochs=5,
 #         # Adjust batch size if this doesn't fit on the Colab GPU
-#         per_device_train_batch_size=8,  
+#         per_device_train_batch_size=8, 
+#         save_total_limit = 1, 
 #         # no_cuda = True
 #     ),
 #     data_collator=data_collator,
@@ -90,7 +90,7 @@ data_collator = default_data_collator
 # trainer.train()
 
 
-model.load_state_dict(torch.load('./models/bert_piqa/checkpoint-4000/pytorch_model.bin'))
+model.load_state_dict(torch.load('./models/bert_large_piqa/checkpoint-5000/pytorch_model.bin'))
 model.to(device)
 
 def eval_fn(model, batch_size=8):
@@ -131,4 +131,4 @@ def eval_fn(model, batch_size=8):
     acc = sum(acc)/len(acc)
     print(f"Task name: PiQA \t Accuracy: {acc}")
 
-eval_fn(model, batch_size=4)
+eval_fn(model, batch_size=8)
