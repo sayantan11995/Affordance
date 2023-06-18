@@ -16,11 +16,13 @@ from utils import eval
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-filename = "../data/ECCV_affordance_data.tsv"
-filename = "../data/toloka_annotated_data.tsv"
+# filename = "../data/ECCV_affordance_data.tsv"
+# filename = "../data/toloka_annotated_data.tsv"
 filename = "../data/final_annotated_data.tsv"
 # filename = "../data/Daivik_annotated.tsv"
-filename = "../data/rare_object_annotated_data.tsv"
+# filename = "../data/rare_object_annotated_data.tsv"
+# filename = "../data/Rare_Objects_Sayantan_Merged.tsv"
+# filename = "../data/rare_xnli.tsv"
 
 data = pd.read_csv(filename, sep='\t')
 
@@ -38,14 +40,14 @@ for lab in labels_lower:
     else:
         classes.append(oov_class_map[lab])
 
-
+load_model_path = './models/roberta-large-finetuned-affordance'
 
 def init_model(model_name):
     if model_name == "roberta":
-        model = pipeline("zero-shot-classification", model="roberta-large-mnli", device=0)
+        model = pipeline("zero-shot-classification", model=load_model_path, device=1)
 
     elif model_name == "bart":
-        model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=0)
+        model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=1)
     elif model_name == "bert":
         model = pipeline("zero-shot-classification", model="sledz08/finetuned-bert-piqa", device=0)
     else:
@@ -53,7 +55,7 @@ def init_model(model_name):
 
     return model
 
-selected_model = 'bart'
+selected_model = 'roberta'
 model = init_model(selected_model)
 print(f"======================== Selected Model: {selected_model}")
 
@@ -91,7 +93,12 @@ avg_acc = []
 ground_truth_classes = []
 predicted_classes = []
 
+## For calculating AUC-ROC
+true_labels_list = []
+predicted_scores_list = []
 
+
+rare_ids = []
 for ids, rows in data.iterrows():
 # predicted_affordances = predict_affordance_proba(model, sentence, object)
     # if ids >=200:
@@ -116,19 +123,30 @@ for ids, rows in data.iterrows():
         else:
             negative_classes.append(class_name)
 
-    prev_cor = correct
-    prev_wrong = wrong
+    per_itr_correct = 0
+    per_itr_wrong = 0
     
     if len(positive_classes) > 0:
         for pos in positive_classes:
             for neg in negative_classes:
                 if predicted_affordances[pos] >= predicted_affordances[neg]:
                     correct += 1
+                    per_itr_correct += 1
                 else:
                     wrong += 1
+                    per_itr_wrong +=1 
 
-        print((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
-        avg_acc.append((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
+        per_itr_accuracy = per_itr_correct/(per_itr_correct+per_itr_wrong)
+
+        print(per_itr_accuracy)
+
+        if per_itr_accuracy < 0.3:
+            
+            # print(per_itr_accuracy)
+            # print(sentence)
+            # print(object)
+            rare_ids.append(ids)
+        avg_acc.append(per_itr_accuracy)
 
         ground_truth_classes.append(positive_classes)
         predicted_classes.append(list(sorted_predicted_affordances.keys()))
@@ -139,7 +157,13 @@ for ids, rows in data.iterrows():
         # print(sorted_predicted_affordances)
         # print(positive_classes)
 
-    # if ids > 5:
+        true_labels_list.append(list(gt_affordance.values()))
+        predicted_scores_list.append(list(predicted_affordances.values()))
+        
+    # print(gt_affordance)
+    # print(predicted_affordances)
+    # print("#"*50)
+    # if ids > 15:
     #     break
 
 accuracy = correct / (correct+wrong)
@@ -147,3 +171,10 @@ accuracy = correct / (correct+wrong)
 print("Accuracy: %s"%accuracy )
 print("MAP: %s" %eval.mapk(ground_truth_classes, predicted_classes, 15))
 print("Accuracy: %s"%(sum(avg_acc)/len(avg_acc)))
+# print(true_labels_list)
+# print(predicted_scores_list)
+eval.calculate_auc_roc(true_labels_list, predicted_scores_list)
+
+# print(len(rare_ids))
+# rare_dataset = data[data.index.isin(rare_ids)]
+# rare_dataset.to_csv("rare_xnli.tsv", index=False, sep='\t')

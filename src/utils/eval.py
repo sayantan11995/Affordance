@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.metrics import roc_auc_score
 
 def apk(actual, predicted, k=10):
     """
@@ -55,6 +56,21 @@ def mapk(actual, predicted, k=10):
             The mean average precision at k over the input lists
     """
     return np.mean([apk(a,p,k) for a,p in zip(actual, predicted)])
+
+
+def calculate_auc_roc(true_labels_list, predicted_scores_list):
+    # Calculate the AUC-ROC for each example
+    auc_roc_list = []
+    for true_labels, predicted_scores in zip(true_labels_list, predicted_scores_list):
+        auc_roc = roc_auc_score(true_labels, predicted_scores)
+        auc_roc_list.append(auc_roc)
+
+    # Compute the average or weighted average AUC-ROC across all examples
+    average_auc_roc = sum(auc_roc_list) / len(auc_roc_list)
+    weighted_average_auc_roc = sum(auc_roc * len(true_labels) for auc_roc, true_labels in zip(auc_roc_list, true_labels_list)) / sum(len(true_labels) for true_labels in true_labels_list)
+
+    print("Average AUC-ROC:", average_auc_roc)
+    print("Weighted Average AUC-ROC:", weighted_average_auc_roc)
 
 # actual = [['push', 'fix']]
 # predicted = [['ride', 'fix', 'sit']]

@@ -15,17 +15,22 @@ from sklearn.model_selection import train_test_split
 from transformers import BertPreTrainedModel, BertModel
 import torch.nn.functional as F
 from transformers import default_data_collator
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+# torch.cuda.set_device(1)
 
 
 logging.basicConfig(level=logging.INFO)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 print('Using device:', device)
 
 dataset = datasets.load_dataset("piqa")
 
-model_name = "bert-large-uncased"
+model_name = "roberta-large"
 
 tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
 
@@ -62,35 +67,37 @@ tokenized_datasets = dataset.map(convert_to_piqa_features, batched=True, remove_
 ## Fine-Tuning
 model = transformers.AutoModelForMultipleChoice.from_pretrained(model_name)
 
+model.to(device)
+
 
 
 from transformers import default_data_collator
 
 data_collator = default_data_collator
 
-# trainer = transformers.Trainer(
-#     model=model,
-#     args=transformers.TrainingArguments(
-#         output_dir="./models/bert_large_piqa",
-#         overwrite_output_dir=True,
-# #         evaluation_strategy = 'epoch',
-#         learning_rate=5e-5,
-#         do_train=True,
-#         num_train_epochs=5,
-#         # Adjust batch size if this doesn't fit on the Colab GPU
-#         per_device_train_batch_size=8, 
-#         save_total_limit = 1, 
-#         # no_cuda = True
-#     ),
-#     data_collator=data_collator,
-#     train_dataset=tokenized_datasets["train"],
-#     # eval_dataset=eval_dataset,
-#     # compute_metrics=compute_metrics,
-# )
-# trainer.train()
+trainer = transformers.Trainer(
+    model=model.to(device),
+    args=transformers.TrainingArguments(
+        output_dir="./models/roberta_large_piqa",
+        overwrite_output_dir=True,
+#         evaluation_strategy = 'epoch',
+        learning_rate=5e-5,
+        do_train=True,
+        num_train_epochs=5,
+        # Adjust batch size if this doesn't fit on the Colab GPU
+        per_device_train_batch_size=8, 
+        save_total_limit = 1, 
+        # no_cuda = True
+    ),
+    data_collator=data_collator,
+    train_dataset=tokenized_datasets["train"],
+    # eval_dataset=eval_dataset,
+    # compute_metrics=compute_metrics,
+)
+trainer.train()
 
 
-model.load_state_dict(torch.load('./models/bert_large_piqa/checkpoint-5000/pytorch_model.bin'))
+# model.load_state_dict(torch.load('./models/bert_large_piqa/checkpoint-5000/pytorch_model.bin'))
 model.to(device)
 
 def eval_fn(model, batch_size=8):

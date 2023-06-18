@@ -170,7 +170,7 @@ for ids, rows in data.iterrows():
     if len(positive_classes) > 0:
         for pos in positive_classes:
             for neg in negative_classes:
-                if predicted_affordances[pos] >= predicted_affordances[neg]:
+                if predicted_affordances[pos] > predicted_affordances[neg]:
                     correct += 1
                 else:
                     wrong += 1

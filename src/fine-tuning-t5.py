@@ -20,7 +20,7 @@ def set_seed(seed):
 
 set_seed(42)
 
-save_path = './models/flan-t5-finetuned-affordance'
+save_path = './models/flan-t5-large-finetuned-affordance'
 
 model_name = 'google/flan-t5-large'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -46,11 +46,11 @@ optimizer = AdamW(optimizer_grouped_parameters, lr=2e-5, eps=1e-8)
 
 
 # dataset preparation
-filename = "../data/ECCV_affordance_data.tsv"
+# filename = "../data/ECCV_affordance_data.tsv"
 filename = "../data/final_annotated_data.tsv" ## for Piqa performance
 data = pd.read_csv(filename, sep='\t')
 label_names = list(data.columns[2:])
-oov_class_map = {"play": "play using", "lookthrough": "look through", "siton": "sit on", "pourfrom": "pour from", "writewith": "write with", "typeon": "type using"}
+oov_class_map = {"play": "playing", "lookthrough": "looking through", "siton": "sitting on", "pourfrom": "pouring from", "writewith": "writing with", "typeon": "typing"}
 labels_lower = [x.lower() for x in label_names]
 classes = []
 for lab in labels_lower:
@@ -73,20 +73,22 @@ for idx, row in data.iterrows():
     # Randomly select one index from the zeros
     zero_index = np.random.choice(zeros)
     negative_class = classes[zero_index - 2] ## first 2 columns are Sentence and Object
-    prompt_label_pairs.append((f"{sentence} Can human {negative_class} the {object_name}", "No"))
+    prompt_label_pairs.append((f"{sentence}  \nOPTIONS:\n- Human cannot use the {object_name} for {negative_class} \n- Human uses the {object_name} for {negative_class}", f"Human cannot use the {object_name} for {negative_class}"))
 
     try:
         # Randomly select one index from the ones
         one_index = np.random.choice(ones)
         positive_class = classes[one_index - 2] ## first 2 columns are Sentence and Object
-        prompt_label_pairs.append((f"{sentence} Can human {positive_class} the {object_name}", "Yes"))
+        prompt_label_pairs.append((f"{sentence}  \nOPTIONS:\n- Human cannot use the {object_name} for {positive_class}  \n- Human uses the {object_name} for {positive_class}", f"Human uses the {object_name} for {positive_class}"))
     except:
         pass
 
     # print(row['Object'], classes[zero_index - 2]) ## first 2 columns are Sentence and Object
     # print(row['Object'], classes[one_index - 2]) ## first 2 columns are Sentence and Object
 
+random.shuffle(prompt_label_pairs)
 
+print(len(prompt_label_pairs))
 
 
 
@@ -97,7 +99,7 @@ epochs = 5
 for epoch in range(epochs):
   print ("epoch ",epoch)
   for input,output in prompt_label_pairs:
-    input_sent = "Answer Yes or No: "+input + "</s>"
+    input_sent = "Select the most appropriate option based on the situation:\n\n: "+input + "</s>"
     ouput_sent = output
 
     tokenized_inp = tokenizer.encode_plus(input_sent,  max_length=128, pad_to_max_length=True,return_tensors="pt")
@@ -119,6 +121,9 @@ for epoch in range(epochs):
     optimizer.step()
     optimizer.zero_grad()
 
+t5_model.eval()
+t5_model.save_pretrained(save_path, from_pt=True)
+
 test_sent = 'Answer Yes or No: The metallic jingles of the sistrum added a mesmerizing rhythm to the ancient Egyptian ritual, invoking the divine presence.	Can human play Sistrum? </s>'
 test_sent = "Answer Yes or No: The flowing chador enveloped her in modesty and grace, representing the cultural values and religious customs of Iran.	Can human feed Chador?"
 
@@ -127,8 +132,7 @@ test_tokenized = tokenizer.encode_plus(test_sent, return_tensors="pt")
 test_input_ids  = test_tokenized["input_ids"].to(device)
 test_attention_mask = test_tokenized["attention_mask"].to(device)
 
-t5_model.eval()
-t5_model.save_pretrained(save_path, from_pt=True)
+
 
 # beam_outputs = t5_model.generate(
 #     input_ids=test_input_ids,attention_mask=test_attention_mask,

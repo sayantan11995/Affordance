@@ -16,12 +16,13 @@ import numpy as np
 
 from utils import eval
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
 filename = "../data/ECCV_affordance_data.tsv"
 filename = "../data/toloka_annotated_data.tsv"
 filename = "../data/final_annotated_data.tsv"
 # filename = "../data/rare_object_annotated_data.tsv"
+filename = "../data/rare_xnli.tsv"
 
 
 model_path='bert-large-uncased'
@@ -177,7 +178,7 @@ wrong = 0
 ground_truth_classes = []
 predicted_classes = []
 
-
+rare_ids = []
 for ids, rows in data.iterrows():
 # predicted_affordances = predict_affordance_proba(model, sentence, object)
     # if ids >=200:
@@ -204,16 +205,27 @@ for ids, rows in data.iterrows():
 
     prev_cor = correct
     prev_wrong = wrong
-    
+    per_itr_correct = 0
+    per_itr_wrong = 0
+
     if len(positive_classes) > 0:
         for pos in positive_classes:
             for neg in negative_classes:
                 if predicted_affordances[pos] >= predicted_affordances[neg]:
                     correct += 1
+                    per_itr_correct += 1
                 else:
                     wrong += 1
+                    per_itr_wrong +=1 
 
-        print((correct-prev_cor)/(correct+wrong - prev_cor-prev_wrong))
+        per_itr_accuracy = per_itr_correct/(per_itr_correct+per_itr_wrong)
+
+        if per_itr_accuracy < 0.3:
+            
+            print(per_itr_accuracy)
+            print(sentence)
+            print(object)
+            rare_ids.append(ids)
 
         ground_truth_classes.append(positive_classes)
         predicted_classes.append(list(sorted_predicted_affordances.keys()))
@@ -229,3 +241,6 @@ accuracy = correct / (correct+wrong)
 
 print("Accuracy: %s"%accuracy )
 print("MAP: %s" %eval.mapk(ground_truth_classes, predicted_classes, 15))
+print(len(rare_ids))
+# rare_dataset = data[data.index.isin(rare_ids)]
+# rare_dataset.to_csv("rare_xnli.tsv", index=False, sep='\t')

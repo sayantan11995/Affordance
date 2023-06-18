@@ -1,0 +1,63 @@
+Sentence	Object	Grasp	Lift	Throw	Push	Fix	Ride	Play	Watch	SitOn	Feed	Row	PourFrom	LookThrough	WriteWith	TypeOn
+The powerful automobile engine roared to life as the driver turned the key.	automobile engine 	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+He swung the heavy axe with precision, chopping through the thick tree trunk.	axe 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She pedaled her bicycle down the quiet country road, enjoying the fresh air.	bicycle 	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0
+He unscrewed the cap from the water bottle and took a long drink.	bottle 	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+She adjusted the settings on her camera and snapped a photo of the beautiful sunset.	camera 	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+He opened the can of soda and took a sip, relishing the sweet, fizzy taste.	can 	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+The car tire was worn and needed to be replaced before the next long trip.	car tire 	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+The chef carefully wielded the sharp carving knife as he prepared the roast.	carving knife 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She sank into the comfortable armchair and let out a contented sigh.	chair 	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0
+The teacher wrote the math problem on the board with a piece of chalk.	chalk 	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0
+The butcher expertly wielded the cleaver, slicing through the meat with ease.	cleaver 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He sat down at his desktop computer and began typing away at the keyboard.	desktop computer 	0	1	0	1	1	0	0	1	0	0	0	0	0	0	1
+She washed the dirty dishes in the sink, scrubbing away the food remnants.	dish 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The friendly dog wagged its tail and licked her face in greeting.	dog 	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0
+She ran the dustcloth over the shelves, removing the layer of dust.	dustcloth 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He cast his fishing pole into the lake and waited for a bite.	fishing pole 	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+She used the food turner to flip the pancakes in the pan.	food turner 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+They threw the frisbee back and forth in the park, laughing and having fun.	frisbee 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He strummed the guitar, filling the room with beautiful music.	guitar 	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+He sawed through the wood with the hand saw, making steady progress.	hand saw 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She picked up the handset and dialed the number, waiting for an answer.	handset 	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The majestic horse galloped across the field, its mane flying in the wind.	horse 	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+He opened the laptop and began working on his presentation.	laptop 	1	1	1	1	1	0	0	1	0	0	0	0	0	0	1
+She peered through the microscope, studying the tiny organisms in the sample.	microscope 	1	1	0	1	1	0	0	0	0	0	0	0	1	0	0
+He pulled out his mobile phone and checked for new messages.	mobile phone 	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+She dipped the mop into the bucket and wrung it out before cleaning the floor.	mop 	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+He picked up the pen and began writing in his journal.	pen 	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0
+She poured the cold lemonade into the pitcher and placed it in the fridge.	pitcher	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+He used the power saw to cut through the thick piece of wood.	power saw 	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+She pushed the shopping cart through the store, picking out items for her list.	shopping cart 	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+They paddled the small boat out into the lake, enjoying the peaceful surroundings.	small boat 	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0
+She sank into the soft cushions of the sofa and turned on the television.	sofa 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+He carefully poured the hot water into the teapot, steeping the tea leaves.	teapot 	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+She looked through the telescope, marveling at the distant planets and stars.	telescope 	1	1	0	1	1	0	0	0	0	0	0	0	1	0	0
+He sat on the couch and watched the latest episode of his favorite show on television.	television 	0	1	0	1	1	0	0	1	0	0	0	0	0	0	0
+He brushed his teeth with his toothbrush, the bristles scrubbing away the plaque.	toothbrush 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She unfurled her umbrella and stepped out into the rain.	umbrella 	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+He pushed the vacuum cleaner around the room, the machine picking up dust and debris.	vacuum cleaner 	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+She played her violin, the music filling the concert hall.	violin 	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+He filled the wheelbarrow with dirt and wheeled it to the garden.	wheelbarrow 	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0
+He strummed his banjo, the twangy sound filling the room.	banjo 	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+She sat on the bench and watched the children playing in the park.	bench 	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0
+He filled a bowl with cereal and milk, sitting down to enjoy his breakfast.	bowl 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She swept the floor with her broom, the bristles pushing the dust and debris into a pile.	broom 	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+The camel plodded through the desert, the heat beating down on its back.	camel 	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+The cat curled up on the windowsill, its tail twitching as it dreamed.	cat 	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0
+He sipped his coffee from the cup, the warmth spreading through his body.	coffee cup 	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+The donkey brayed as it was led through the streets, pulling a cart of vegetables.	donkey	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+He filled a flagon with ale from the barrel, offering a drink to his friends.	flagon 	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+He swung the hammer, driving the nail into the wood.	hammer	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He pushed the hand truck loaded with boxes, moving them to the storage room.	hand truck 	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0
+He paddled his kayak through the rapids, the water splashing around him.	kayak 	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0
+She sat in front of the computer monitor, scrolling through her social media.	monitor 	0	1	0	1	1	0	0	1	0	0	0	0	0	0	0
+He revved the engine of his motorcycle and took off down the road.	motorcycle 	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+She sharpened her pencil, ready to take notes during the meeting.	pencil 	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0
+The rhinoceros charged at the safari vehicle, its horn gleaming in the sunlight.	rhinoceros 	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+She pushed the serving cart, laden with dishes, into the dining room.	serving cart 	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+He harvested the wheat with a sickle, the blade slicing through the stalks.	sickle 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She stirred the soup with a spoon, the steam rising from the pot.	spoon 	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He perched on the stool, his feet not quite reaching the ground.	stool 	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0
+He typed on the typewriter, the keys clacking as he wrote his novel.	typewriter 	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1
+He picked up the walkie-talkie, communicating with his team on the construction site.	walkie-talkie 	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
