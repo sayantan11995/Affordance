@@ -1,11 +1,8 @@
 Sentence	Object	Grasp	Lift	Throw	Push	Fix	Ride	Play	Watch	SitOn	Feed	Row	PourFrom	LookThrough	WriteWith	TypeOn
 Make sure to have steaks and potatoes .	steaks	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
-Is swimming just as great an exercise as aerobics ?	aerobics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The fire destroyed it .	The fire	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The southern tip of Kyushu is full of tourist attractions .	The southern tip of Kyushu	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The southern tip of Kyushu is full of tourist attractions .	tourist attractions	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 GAO might only give telephone or email messages .	email messages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Sather Karf has no questions regarding cold iron and conjuring .	conjuring	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 It runs ads for its supporters at shows and strikes business deals , but insists it is not commercial .	shows	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Cynthia can 't have sugar in her coffee due to her diet .	coffee	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Resetting the clock is a common occurrence .	the clock	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
@@ -21,25 +18,19 @@ Book Soup on Sunset Boulevard doesn 't sell any newspapers or magazines .	newspa
 He is usually depicted with the blue face as Krishna , an after-effect of swallowing a poison that threatened the world , and is often represented sporting with the milkmaids he seduced , or playing a flute .	flute	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0
 The six-pointed stars that you 'll see all over the country look similar to the Jewish Star of David .	six-pointed stars	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The finale was crass and disgusting with lots of nudity .	The finale	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Allowance allocations will definitely not alter the pricing of electricity in cost-of-service areas .	allowance allocations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The ramparts surrounding the tower are fairly new .	the tower	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The paintings of Renoir , Monet and Pissarro were at Nadar 's house .	The paintings	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
-Significant health benefits are worth many costs , as they save the economy a lot of money anyway .	the economy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 One of the limitations was that they couldn 't use weapons .	weapons	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 There were fattening foods in the refrigerator .	the refrigerator	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
 The Loire 's sandbanks become islands in the summer .	sandbanks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The value of Philly 's program is that it doesn 't separate the minnows from the sharks .	the sharks	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
-I never had any opportunity to end LOA .	opportunity	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Cruise ships are host to well-lit parties .	ships	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
-Arafat has a distaste for terrorism and wants to be peaceful in america	terrorism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Adrin was hit twice with a hatchet .	a hatchet	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 He missed the riders completely .	the riders	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Mangrove trees grow on the coast and provide homes for lots of marine life .	Mangrove trees	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The hats from the War Office were made of leather .	The hats	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
 We can cut out all the background noise when we hook it in .	background noise	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
 Ecology of Fear , according to the columnists , contained errors but Los City of Quartz didn 't .	errors	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
-I had suffered severe depression during those days .	severe depression	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-There was no examination of the 1995 year .	examination	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The impractical Tommy inquired after meals .	meals	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
 Make sure to have steaks and potatoes .	potatoes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 63 skeletons were found beyond the stage , in the Gladiator 's Barracks .	skeletons	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -47,59 +38,40 @@ Malaysia is filled with so many natural and man-made wonders that 's set to go b
 Ca 'daan looked towards the campsite .	the campsite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The remnant of the wall is an interesting historical artifact , but doesn 't have much religious meaning anymore .	historical artifact	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 There was a path leading away from the road .	the road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
-Federal Law prohibited interest to be generated on checking accounts , but now it 's common practice .	accounts	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Even 30 years after he died , the theaters were still standing .	the theaters	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 There are people that let you rent their kilns to finish pieces at their shop .	kilns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-We 're not really missing out on childcare benefits .	childcare	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Mrs. Vandemeyer is unable to stand on her feet .	feet	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-I think parents have a greater responsibility in what concerns their children 's education than school .	children's education	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Slate Magazine does not have a permanent collection .	Slate Magazine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 A blade went through Kal 's chest .	A blade	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 The blood foal was just born .	The blood foal	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0
 The lieutenant with the supply wagons was there .	supply wagons	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
 Clinton has never flown on a plane .	a plane	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
-The new infrastructure will create more opportunities for the managers .	opportunities	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The seat next to the driver gives the best views .	views	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Visiting the quarries is a great way to learn how ancient Egyptians worked with stone .	stone	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 There are always jobs available for young girls today .	young girls	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Females might perform higher on the screening tests if the cut points are reduced .	screening test	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I had car trouble in the cold weather .	car trouble	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The ramparts surrounding the tower are fairly new .	The ramparts	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Is swimming just as great an exercise as aerobics ?	swimming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 A fleet of donkeys ferries passengers from the town to the port .	the port	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-we have access to a recreation center which is pretty much just across the street from our office	a recreation center	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-If the cities started more programs for children it would be more convenient .	programs for children	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Ugrades are a headache .	a headache	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 We saw blood on their demon hands and murder in their evil eyes .	blood	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Styles St. Mary was further from the station than Styles Court .	the station	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-There was no fire , smoke or flames .	fire	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 John Elway and Joe Montana played football together ,	football	1	1	1	0	0	0	1	0	0	0	0	0	0	0	0
 The Loire 's sandbanks become islands in the summer .	islands	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Mangrove trees grow on the coast and provide homes for lots of marine life .	coast	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The book was phenomenal with no faults .	faults	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
 A good sword gives people the slight edge if it is made of steel .	sword	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
 The little white cave-racer snakes are harmful .	The little white cave-racer snakes	1	1	0	1	0	0	0	0	0	1	0	0	0	0	0
 Ten wide bays offer artificial harbors , and the large Navy Island is just offshore .	bays	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-I think Asian economies are doing great .	economies	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 A fleet of donkeys ferries passengers from the town to the port .	A fleet of donkeys	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 If we are married , I will buy you a beer or a Dr. Pepper .	a beer	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0
-Installing control technologies in order to reduce emissions required resources .	emissions	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Most shrubs are hardier than them .	shrubs	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-They can define the facility requirements for square footage .	facility	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Congress has a special budget for information and technology management in the federal government .	information and technology management	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Hollywood road is located in the center of the city .	Hollywood road	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The steps which link the burial chamber to the entrance are quite dangerous to walk on .	the burial chamber	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I enjoyed reading the book more than watching the movie .	the movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 The kiosk is an attempt at easing the flood of litigants unable , or refusing , to hire attorneys .	flood of litigants	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The seat next to the driver gives the best views .	The seat	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 You can predict what these kids will want to do next .	kids	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
-Other New Territories villages are hard to access .	Other New Territories villages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Tom 's last thought , reflected in the opening line of the book , was that we could be part of God 's dream .	the opening line of the book	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-There was a governor fight in Texan politics	governor fight	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Tell me about all the music you love listening to	music	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Those people with the loudspeakers are very annoying .	the loudspeakers	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
-Time intentionally misleads the reader into believing the alien story .	alien story	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Politicians these days have a hard time noticing the difference between an economy of truth and one of lies .	economy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 You cannot take a ferry boat through the harbour .	ferry boat	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
 Pico dos Barcelos offers a stunning view of Funchal 's surroundings although not of the city itself .	a stunning view of Funchal 's surroundings	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Not many people take the excursion to Pamukkale , but the resorts still offer it .	the resorts	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -109,20 +81,15 @@ Ten wide bays offer artificial harbors , and the large Navy Island is just offsh
 Jon couldn 't figure out what was down the tunnel , but he had an idea .	the tunnel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 People will tend to sell you fake jade , which is hard to distinguish from the real article .	article	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 Cynthia can 't have sugar in her coffee due to her diet .	sugar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-He had a problem finding a job because of the hiring freeze .	a problem	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 No , do not use the machine .	the machine	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
 Mrs. Inglethorp had lots of candles in her room .	candles	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 TV is the most important medium for showing history .	medium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The basement is tiny .	The basement	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The commission reduced burdens on the employees .	burdens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The remnant of the wall is an interesting historical artifact , but doesn 't have much religious meaning anymore .	The remnant of the wall	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Some editorial cartoons show people unattractively .	cartoons show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-Moreover , CBO 's inflated baseline assumes that discretionary spending-which is controlled through annual appropriations-will grow after 2002 at the rate of inflation , perhaps even more , depending on how inflated the baseline becomes thereafter .	rate of inflation	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Congress has a special budget for information and technology management in the federal government .	budget	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 GAO might only give telephone or email messages .	telephone	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1
 There was no fire , smoke or flames .	flames	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I would see shows in London often .	shows	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-Nobody has ever taken the time to study water catchment areas .	water catchment areas	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Wordsworth frequently lambasted the Duddon Valley because of its hillsides .	hillsides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Cynthia can 't have sugar in her coffee due to her diet .	diet	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The food markets are all on the canal 's east bank .	food markets	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -132,10 +99,7 @@ The Hai Bar Wildlife Reserve is a zoo where all animals are kept in captivity th
 Sewage poured into upstairs windows from the streets while people whispered to each other .	the streets	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 In the Zapruder film is revealed that he was a conspirator , this was a shock for the public .	film	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Between the light , there were many riders , quickly riding through the groups of foot soldiers .	the light	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Many people attend statewide task force meetings in all offered topics .	statewide task force meetings	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The new infrastructure will create more opportunities for the managers .	infrastructure	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Book Soup on Sunset Boulevard doesn 't sell any newspapers or magazines .	magazines	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
-Trying to identify placed where people could have been exposed to toxic chemicals is impossible .	toxic chemicals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The tower of the YMCA building was designed in a classic Greco-Roman style .	The tower	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Hire a Quad Runner to explore the desert in a more novel , self-drive way .	the desert	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The wintertime is when the air conditioning was on , I couldn 't ring the doorbell because it was frozen .	the doorbell	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
@@ -147,9 +111,7 @@ The movie was original with a twist ending .	The movie	0	0	0	0	0	0	0	1	0	0	0	0	0
 Women were not often permitted outside without wearing the proper attire .	attire	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 The site can only be reached by helicopter .	The site	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Are you looking for a new car ?	car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
-In the Zapruder film is revealed that he was a conspirator , this was a shock for the public .	a conspirator	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Brittany 's countryside is boring and mundane .	countryside	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-He could have talked about how tolerant the coalition was .	the coalition	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Kirstie Alley plays an older ex-model in the tv show .	the tv show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 It 's pretty nice and friendly out there in the soccer field	the soccer field	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 Cucumbers grow really well here due to the rain .	the rain	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
@@ -162,17 +124,14 @@ We held a friendly morning meal , one of the best since the event occurred .	mor
 The steps which link the burial chamber to the entrance are quite dangerous to walk on .	The steps	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 There is a sign near the railway station that depicts the portuguese involvement in Japan .	the railway station	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I have a lot of football knowledge .	football	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
-Departments are typically reluctant to disclose mistakes in the awarding of benefits .	mistakes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 There is no need for a system of control techniques because the existing practices are always accurate .	a system of control techniques	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 We transferred the engine and transmission into another body .	engine	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
 I am an old lady that likes you a lot .	an old lady	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Sewage poured into upstairs windows from the streets while people whispered to each other .	windows	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
 Hooking up the equipment is an important part of implementing control technology .	equipment	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 The palazzi doesn 't have any amenities .	amenities	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The post was about the Chinese missile program being launched that week .	Chinese missile program	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 A law in California suggest that workers be allowed to give injections without medical supervision .	injections	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 If you want to watch the shepherds at work , you can go to the auditorium .	shepherds at work	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-There are many taxidermist shops located in Guadeloupe .	taxidermist	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 I think you need to hone in on the college ranking and just ignore everything else like reputation , distance , mascot , etc .	mascot	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 You know birds are too much work .	birds	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
 It 's probably best not to take kids to see Silence Of The Lambs .	kids	0	1	0	0	0	0	1	1	0	1	0	0	0	0	0
@@ -262,7 +221,6 @@ GMC makes some of the most reliable cars on the road .	cars	0	0	0	1	1	1	0	0	0	0	
 The horse had galloped into the woods and never was seen again .	woods	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The garden of the house is filled with nothing but roses .	roses	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0
 Drew kicked the horse and spit on its ear .	the horse	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0
-When the evidence is consistent , the analyst can confirm the pattern .	the evidence	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The cat ate every kind of fish except tuna .	tuna	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0
 The bell beside this temple has no rope .	The bell beside this temple	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 I thought of the old lady in the house .	the old lady	0	1	0	1	0	0	0	1	0	1	0	0	0	0	0
@@ -272,7 +230,6 @@ The bulbs are only for summer to scare away the birds .	birds	1	1	1	1	0	0	0	1	0	
 I like the flavour of the food .	flavour of the food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 You will not be able to access the town by boat and there 's no way to get up the cliffs .	boat	0	0	0	1	1	0	0	0	1	0	1	0	0	0	0
 It never occurred to me that this was eucalyptus .	eucalyptus	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-The patients ' hearts simply weren 't strong enough .	hearts	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Sir Hugh Lane 's collection of paintings was given in part to the Irish government .	collection of paintings	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
 Driving north of Alicante will lead you to the rocky , moon-like landscape of the Cabeao d 'Or mountains .	moon-like landscape of the Cabeao d 'Or mountains	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 First make the fire , then put the sausages and other meat after that .	sausages	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0
@@ -361,7 +318,6 @@ The paintings are all contemporary cartoon and comic book works .	paintings	1	0	
 There have been a large amount of Penguin classics sold .	Penguin classics	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Some contracts may require computers to operate for a month without downtime .	computers	1	1	0	0	1	0	1	1	0	0	0	0	0	0	0
 The main road does not connect to many alleyways .	The main road	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
-The risk of air pollution is the most important type of pollution which should be carefully considered .	air pollution	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Chartres , Paris , Bourges and Amines ' cathedrals were monuments to the glory of God and , at the same time , testimony to sheer power of the Islamic religion .	cathedrals	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 There were 4 corpses , some anthropologists saying the technology is new but the impulse is old .	corpses	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0
 Francis Street is great if you need to sell carpets and guns .	carpets	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0
@@ -445,7 +401,6 @@ The artist 's son did all the work in completing the oil painting .	the oil pain
 They broke the port with their bare hands .	bare hands	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 It was bare of all but floor and walls .	floor and walls	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
 The attempt at fixing the road was pathetic .	road	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
-I 'm totally sure that water pollution and air pollution are firmly linked .	air pollution	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 His lower jaw was encased in iron .	His lower jaw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 They helped birth modern plays .	modern plays	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Giuseppe Verdi was a grape farmer .	grape	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
@@ -562,7 +517,6 @@ Hokkaido has a lot of fun winter sports .	fun winter sports	0	0	0	0	0	0	1	0	0	0	
 What baseball ?	baseball	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
 Things would have been terrible if she had taken the wire .	the wire	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 You mean with pro ball .	ball	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0
-There are no differences between chemical and biological weapons .	biological weapons	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 My brother has gotten frost before , and his crops died .	crops	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I recycle only iron cans .	iron cans	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0
 The simple granite sarcophagus is in a small chamber .	The simple granite sarcophagus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -594,7 +548,6 @@ I usually wait until May to start planting the vegetables .	vegetables	1	1	1	1	0
 The light fixture stopped working because someone got water on it .	The light fixture	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0
 It has two cutting blades that trim off extra seam fabric .	cutting blades	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 The rule states that all shoes must incorporate Velcro fasteners .	shoes	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
-Would you like to go outside and get away from technology ?	technology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 After tomb robbers thoughtlessly stole the treasures in the tombs , Ramses IV was responsible for most of mummies within them .	treasures	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
 The Archaeological Museum has a modest collection of antiquities , but no statues .	statues	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0
 They both got thrown out in the gutter with none of their belongings .	the gutter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -645,7 +598,6 @@ The golf course was originally built around an existing old road .	The golf cour
 The only furniture in Washington are beds , chairs , and pews .	furniture	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0
 Locally produced ashtrays may be interesting as well .	ashtrays	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 His lower jaw was encased in iron .	iron	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-The greater problem is the multitude of unreported taxes .	problem	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 There are no real pythons located here .	pythons	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
 Will 's articles are only good in regards to sports	sports	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
 They both got thrown out in the gutter with none of their belongings .	belongings	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
@@ -734,11 +686,9 @@ A critic thought the story was a whitewash .	the story	0	0	0	0	0	0	1	0	0	0	0	0	0
 Phone books don 't have all email addresses .	all email addresses	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The hat was teleported from behind me to be ahead of me .	The hat	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 He seemed like a lunatic .	a lunatic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Social Security contributions or the income tax could be reduced by a new tax on pollution .	pollution	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The head groom of Red Springs did not train the horse in the paddock .	the paddock	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I have never looked lovelier than when I am in leather .	leather	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
 I 'm glad that the phone fell to the ground .	the phone	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
-Pyrenees forms a formidable barrier with Spain .	a formidable barrier	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 He volunteers to cut the grass sometimes because he knows he 'll be left alone while he 's doing it .	the grass	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Ser Perth escorted Nema and Dave out through a side door .	a side door	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
 The paper responds to some of the questions that arose .	The paper	1	1	1	1	0	0	0	0	0	0	0	0	0	0	1
@@ -815,9 +765,7 @@ The Clean Air Act would be improved by reducing carbon emission limits on motorc
 There is a very famous tour of the Tuscan Hill .	the Tuscan Hill	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The small ferry boats are a nicer ride due to being larger than a canoe .	a canoe	1	1	1	1	1	0	0	0	0	0	1	0	0	0	0
 The article praised President Clinton for his exquisite treatment of his vice president .	The article	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
-The money raised gets used for a good cause .	The money raised	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Get yourself a plaque with your name on it	a plaque	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-The table shows key economic information related to manufacturing data related to greenhouse emissions .	greenhouse emissions	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Many guys leave the game due to injuries .	injuries	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 None of them offer dinner nor drinks .	drinks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The golf course is only closed during winter seasons .	The golf course	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -857,7 +805,6 @@ I watched a programme about people who were addicted to soap operas .	soap opera
 As the zealots struggled to survive at Masada , they were troubled with infighting and a food shortage .	the zealots	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0
 Just like in a truck it 's typically the power steering belt or something else way in the back .	steering belt	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
 Last year my strong suit was chipping , I haven 't been able to golf yet this year but hope to soon .	golf	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
-In the New Republic , Robert Boyers praises John Updike for setting his sci-fi novel Toward the Horizon in the aftermath of a technologic evolution .	the New Republic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Electronic signatures are used with automated systems .	Electronic signatures	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 She carefully noticed the cash , too .	the cash	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 The shoes were very dull .	The shoes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
@@ -977,7 +924,6 @@ Reims made wine for the kings .	wine	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
 The carp swims with the current .	The carp	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
 THe script was stored on a computer .	THe script	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
 A banner ad on the internet is similar to a bumper sticker on a car .	A banner ad on the internet	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-I do not have time to hear the full story , just tell me the gist of it .	the full story	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Bees harvest pollen from plants to make honey .	honey	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 It also has sculptures of children and soldiers .	sculptures of children and soldiers	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0
 You eat the pork with fettuccini cream sauce straight out of the ripped-open box .	fettuccini cream sauce	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -1053,7 +999,6 @@ He only muttered something about splitting the sky .	the sky	0	0	0	0	0	0	0	1	0	0
 The church was built in the 20th century .	The church	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
 He only muttered something about splitting the sky .	the sky	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
 Still , it was strange that he had only sent postcards in the mail .	postcards	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
-They got rid of the soda tax the next day .	soda tax	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 ACI and FGD are control technologies that the report doesn 't consider .	technologies	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 In addition to cider and cheese , wine is also produced here .	cheese	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 A highly respectable maiden lady is only ever seen in town in her grey limousine .	grey limousine	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
@@ -1071,7 +1016,6 @@ The interior walls are made of wood and you must paint them .	wood	0	0	0	0	0	0	0
 Close on the banks of the River exists the Nile Hilton Hotel , known by the locals as well as tourists .	tourists	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
 The interior walls are made of wood and you must paint them .	The interior walls	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
 Don 't skip out on the chance for a boat cruise departing from Porto .	boat cruise	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Go scout the town for bad guys tonight .	bad guys	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Las vegas was built to serve travelers .	travelers	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
 A large garden to the North of the Scott Monument is home to a memorial to the explorer and missionary David Livingstone .	A large garden	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The companion rule helped to keep prices reasonable .	the companion rule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -1091,13 +1035,11 @@ The book was solidly finished by a discussion of political writing .	book	1	1	1	
 There was a huge tarantula in the campground and we watched it for a long time .	huge tarantula	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
 The books were put in a certain order .	books	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 I would rather like that people get into medical school based on merit and nothing else .	medical school	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Until the building of the Eiffel Tower in 1898 , it was the tallest structure in the world at 450 ft high .	building	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Disease was an additional burden on the people .	Disease	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 I receive items in the mail .	items in the mail	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 Close on the banks of the River exists the Nile Hilton Hotel , known by the locals as well as tourists .	banks of the River	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Good thing there are no cats in this world .	cats	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
 The book was solidly finished by a discussion of political writing .	political writing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-I think it 's LA Law because a friend of mine told me so .	LA Law	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 The doctor said he had nothing to apologize for .	doctor	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
 U.S. Mail carriers always get out of their vehicles when delivering mail .	vehicles	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
 In addition to cider and cheese , wine is also produced here .	cider	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
@@ -1112,3 +1054,1316 @@ A lot of tourists visit the study room of Catherine de Medicis .	study room of C
 In addition to cider and cheese , wine is also produced here .	wine	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
 This is fairly young compared to the other surviving ottoman structures that can be seen .	ottoman structures	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 A theory says that the diet of Asian women has caused them to have less hip fractures .	hip fractures	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They were going through her papers .	her papers	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He volunteers to cut the grass sometimes because he knows he 'll be left alone while he 's doing it .	the grass	1	1	1	0	0	0	0	0	1	0	0	0	0	0	0
+You don 't have a car to repair .	a car to repair	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+Our friend 's Mustang is in really good condition .	Our friend 's Mustang	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0
+He and his men were fresh as daisies .	daisies	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+Don 't the speedometers in cars show both of them nowadays ?	the speedometers in cars	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0
+I used Krazy Glue to stick the pages together .	the pages	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Poachers are not a threat to the Sumatran Rhino .	the Sumatran Rhino	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Inspector Brown likes candy .	candy	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He tells about a kid who had a lot of feelings at the first time he went to a gallery .	a kid	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0
+There are carvings being kept in the Bharhut Gallery .	the Bharhut Gallery	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The trade in sugar cane and spices was yielding more profit .	sugar cane	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The girl went to the doctor for a prescription .	a prescription	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The speaker is a public figure and needs to be very particular about their appearance .	a public figure	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He tells about a kid who had a lot of feelings at the first time he went to a gallery .	a gallery	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+San 'doro waited , keeping his knives sheathed .	his knives	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+We struggled to pay for our college debt , so we are starting college savings for our kids .	our kids	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+She showed her teeth as she smiled .	her teeth	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Tommy hit the driver with his fist and the driver fell down onto the pavement .	the pavement	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+I don 't think that 's a good idea but thank god we can wear horse masks at work .	horse masks	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The jewels were worth a million dollars .	The jewels	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The West is the worst millennial magazine out there .	the worst millennial magazine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tanners , millers and fishermen used to argue about which parts of the canal belonged to whom .	parts of the canal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The hat was teleported from behind me to be ahead of me .	The hat	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The building takes the form of a boat .	a boat	0	0	0	1	1	1	0	0	1	0	1	0	0	0	0
+The bull is played only by the matador himself .	the matador	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Ser Perth appeared at the doorway , looking for the two mandrakes .	the doorway	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+Many of the tourist attractions like tapas bars are located on the cobblestone streets .	the tourist attractions	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Japanese theaters are hugely popular to visiting American tourists .	Japanese theaters	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The purple-plate specials typically include American food like pizza or fried chicken .	American food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+As the sun set behind the western wall , rain fell .	the sun behind the western wall	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+An arrow will hit you in the back and kill you .	An arrow	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The speaker believes that this is in fact Poirot 's opinion .	The speaker	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+One of the stars could be a rock .	a rock	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+by hard liquor	hard liquor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Millie was a dog during President Nixon 's time in office .	a dog	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0
+The table shows key economic information related to manufacturing data related to greenhouse emissions .	The table	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I went back to Daniel 's bar .	Daniel 's bar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Drugs are awesome and we should all take them .	Drugs	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+What kind of car would you give if you had a blank check ?	a blank check	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+A disheveled maid answered the door after they knocked .	the door	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The stuff smelled bad because it was full of garbage .	garbage	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The things in the garden that are not rosy are a danger .	The things in the garden that are not rosy	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They had ill fitting straps that did not stay up on the shoulders .	ill fitting straps that did not stay up on the shoulders	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The purple-plate specials typically include American food like pizza or fried chicken .	pizza or fried chicken	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I think kids should do either military or public service .	kids	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I like to sit and read the newspaper cover to cover on the weekends .	the newspaper cover	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The food was bad at the party so they got sick and was sent to the hospital .	The food	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Ca 'daans bread was in a brown paper sack .	a brown paper sack	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The mask yielded no potential evidence of how the bard died .	The mask	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+at first , i thought perhaps the uneven floor was a handicap access , but it 's not	the uneven floor	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0
+Risking holiday sentimentality , I would like to mention few things I 'm thankful for , like Larry Amaros ' determination that the Olsen twins wander parched and frightened , and Tim Carvell 's two ( ! ) responses involving pushing poultry or ... people , out of airplanes , among others .	poultry	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The man took the pack off of the mule .	the pack	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The father thought there were around three zits less on his daughter 's face .	three zits	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Shodo was a local blacksmith that discovered he can talk with animals .	animals	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+There is no way to keep the advantages of what we have while instilling the good parts of a monarchy .	the good parts of a monarchy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+My family and I were in the Lincoln Memorial .	the Lincoln Memorial	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Albert brought his hand to his pocket .	his pocket	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The speaker is a public figure and needs to be very particular about their appearance .	The speaker	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thorn rode a horse .	a horse	0	0	0	1	0	1	0	0	1	1	0	0	0	0	0
+Mongolians settled along the rivers because they could fish there .	the rivers	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He said that he put the coffee down in the hall .	the coffee	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+We did not have the opportunities like some to bring a sprinkler around .	a sprinkler	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Many of the tourist attractions like tapas bars are located on the cobblestone streets .	tapas bars	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ca 'daans bread was in a brown paper sack .	bread	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The horse was frightened and kicked the man in the head .	The horse	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0
+Most Italians like to play soccer during their free time .	soccer	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I 've got crickets for them .	crickets	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Invoices were not examined after payment .	Invoices	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Los Angeles times has never published book reviews .	book reviews	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The chair has parts that are also made of plastic and metal .	The chair	1	1	1	1	1	0	0	0	1	0	0	0	0	0	0
+Poachers are not a threat to the Sumatran Rhino .	Poachers	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Kyoto temple does not have a garden .	a garden	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I might get new glasses at the end of the year , since I 'll have money .	new glasses	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+if she can keep the monthly payment low she will be able to buy more food	more food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+That document exonerates all of our politicians completely .	That document	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The last step was to open the gate to the Vampire Lords dimension .	the gate	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0
+The stuff smelled bad because it was full of garbage .	The stuff	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The paper responds to some of the questions that arose .	The paper	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+It 's much easier to run in deep snow than on smooth grass .	deep snow	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Chuck Close has an interest in sculpture , but has never painted .	sculpture	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They managed to sever his femoral artery and he died shortly after .	his femoral artery	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The king kept his Venetian gondolas in the moat .	his Venetian gondolas	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0
+If you were to stop for a moment at the western terrace by the Hall of Mirrors you could catch a glimpse of the asymmetrically arranged grounds .	Mirrors	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+Alyssa states that we are not born with maps inside of us .	maps	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The mines of salt .	The mines of salt .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+If weapons operated themselves , then they would be killing .	weapons	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It rarely ever costs us money to use a credit card when it 's convenient .	a credit card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Neglected and abused children never receive services from Legal Aid .	children	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Fixing bugs takes no time at all .	bugs	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The handbag was the only thing that was forgiven .	The handbag	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The head groom of Red Springs did not train the horse in the paddock .	the horse	0	0	0	1	0	1	0	0	1	1	0	0	0	0	0
+That drug again , Hanson anticipated .	That drug	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a beautiful church on the island .	a beautiful church on the island	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The carp swims with the current .	The carp	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+When her eyes closed Jon was able to see past the mountains .	the mountains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Flamingo closed on December 1946 .	The Flamingo	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He made animal sculptures out of steel .	animal sculptures	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Slate is the establishment , not the rebel .	Slate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Mercury may be natural , but it is also highly toxic to humans when touched .	Mercury	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The breakfast is not free or good .	The breakfast	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He read a book while he was speaking to him .	a book	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Ibiza 's local liqueurs are well known to some .	Ibiza 's local liqueurs	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He kept a hold on the whip .	the whip	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+If you were to stop for a moment at the western terrace by the Hall of Mirrors you could catch a glimpse of the asymmetrically arranged grounds .	the Hall of Mirrors	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The kid has never ridden north so this will be an accomplishment .	The kid	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Why ? No reason , no reason at all for wanting to know that information as an attractive female .	an attractive female	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It is a good thing when a Russian steel factory slows its output .	a Russian steel factory	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Watching a microbiologist fight a policeman is enjoyable to me .	a microbiologist	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lazar 's bones were presented to monasteries of Serbia in 1989 .	Lazar 's bones	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+We can plant potatoes in the middle of May .	potatoes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The tin mines have no use anymore .	The tin mines	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Even after using soap and water , things did not get better .	soap and water	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I think it would fail at crushing steel cans .	steel cans	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The fruit from the orchards is often picked by visiting members of the public .	The fruit from the orchards	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Ally McBeal skirts are worn by many professional women .	Ally McBeal skirts	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+There is a very famous tour of the Tuscan Hill .	the Tuscan Hill	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tommy took the bed somewhere .	the bed	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0
+The last point : rats are not humans .	rats	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Holding a slice of pizza in his free hand , he guided her into an adjoining study , and said , in the warm , caring way she 'd always admired , I need someone like you in times like these .	pizza	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Risking holiday sentimentality , I would like to mention few things I 'm thankful for , like Larry Amaros ' determination that the Olsen twins wander parched and frightened , and Tim Carvell 's two ( ! ) responses involving pushing poultry or ... people , out of airplanes , among others .	airplanes	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There is a spring outside the city walls .	a spring outside the city walls	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a spring outside the city walls .	the city walls	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+She can see the emperor of Faigon .	the emperor of Faigon	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A man attempted to kill Hitler with a bomb .	a bomb	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The players that won 't sign a contract with these people that Jerry Jones was talking about won 't be drafted by them .	a contract	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+No Roman theaters had statues of Emperor Augustus	statues of Emperor Augustus	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+This involves a morning or afternoon of tea in the pool to prepare you for your journey .	tea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Go do something like make a sandwich or go outside for a walk .	a sandwich	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+His leather armor was spotless .	His leather armor	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+Lazar 's bones were presented to monasteries of Serbia in 1989 .	monasteries of Serbia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It costs $ 10 to take a boat on the lake .	a boat	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0
+The religion attributes souls to natural objects and living creatures .	natural objects and living creatures	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Program implementation case studies are never useful , so they are banned .	Program implementation case studies	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Hamilcar gave him a hat that he had brought with him earlier in the day .	a hat	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Albert brought his hand to his pocket .	his hand	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The chair has parts that are also made of plastic and metal .	parts that are also made of plastic and metal	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Cigarettes are going up to like 30 dollars a carton or something .	Cigarettes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She carefully noticed the cash , too .	the cash	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+Or remove any hospital benefits if you have a lot of kids .	a lot of kids	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Soccer Guy was a famous rugby player .	a famous rugby player	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It could create random courses of the objects in the sky .	the objects in the sky	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+My fiancee hates sports so he ignores the sports section in the Texas State University .	the sports section in the Texas State University	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Without the romantic poets , the area would not be known about .	the romantic poets	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They built several fake mosques that were nothing more than empty shells .	empty shells	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Mom , I figured I could keep them because they looked like small animals .	small animals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+If I pull my blade , I can do so to show it off to everyone around .	my blade	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+My wife likes snow peas because her mother cooked them when she was growing up .	snow peas	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Turks do not generally like prepared desserts .	Turks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The man took the pack off of the mule .	the mule	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0
+The views of the Blue Mountains look awful from picture windows .	the Blue Mountains	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Counselas asserted that Existing law is not limited to statues and it does include the Constitution .	statues	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+We monitor waste water in the air division .	waste water in the air division	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Watching a microbiologist fight a policeman is enjoyable to me .	a policeman	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+However , a brass boot was found in America .	a brass boot	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The man was happy to be rid of his hair .	his hair	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+There is a magazine dedicated to soap opera plots .	a magazine	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Ca 'daan was alone in the room , and the loneliness crept into his soul and pained his heart .	the room	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You eat the pork with fettuccini cream sauce straight out of the ripped-open box .	the ripped-open box	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+They were shocked that no one opposed the exhibition .	the exhibition	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Vishnu has eight arms , similar in fashion to an octopus .	eight arms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+While watching him parade like a peacock and break down in tears on TV , we egg on Dennis Rodman .	a peacock	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Jon thought he should have given him the pistols .	the pistols	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a map	a map	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Congress investigated the FBI for illegal campaign cookies .	illegal campaign cookies	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Shodo was a local blacksmith that discovered he can talk with animals .	a local blacksmith that discovered he can talk with animals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+One of these days I will play something on the piano .	the piano	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+The sound of a cricket bat could be heard here in colonial days , though no one knew where it came from .	a cricket bat	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+I have no morals , I do whatever I feel like doing in front of my children .	my children	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I found out in a book that the Mexicans don 't like it when we call ourselves Americans as if Mexico were not part of America .	a book	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+No benefits have been observed with regard to storage or equipment .	storage or equipment	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phone books don 't have all email addresses .	all email addresses	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Clean Air Act would be improved by reducing carbon emission limits on motorcycles .	motorcycles	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+With the sentimental nonsense that Tom Brokaw wrote in his book about World War II ?	his book	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I saw that several of Lincoln 's cops were in the train .	the train	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0
+The purple-plate specials typically include American food like pizza or fried chicken .	fried chicken	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+Meteorites have been known to contain fossils .	Meteorites	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The fried rice is soaked in rum with garlic .	garlic	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The museum is one of the largest in the region .	The museum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+My stepdad bought a small computer for my mom .	a small computer	0	1	1	1	1	0	1	0	0	0	0	0	0	0	1
+The new contest is how fast can we kill this turtle and then cook it in wax ?	wax	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is old moss on the 15 rocks .	old moss on the 15 rocks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It 's much easier to run in deep snow than on smooth grass .	smooth grass	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DOD checked our advisement when adding criteria at two places .	our advisement	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I heard a thump and a loud noise from the kitchen .	the kitchen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The head groom of Red Springs did not train the horse in the paddock .	the paddock	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The bowl is very precious , and we must guard it .	The bowl	1	1	1	1	1	0	0	0	0	0	0	1	0	0	0
+While avoiding glancing at Tommy , the girl went to clear the table .	the table	0	1	1	1	1	0	0	0	1	0	0	0	0	0	0
+The new contest is how fast can we kill this turtle and then cook it in wax ?	this turtle	1	1	1	1	0	0	1	0	0	1	0	0	0	0	0
+I hate cheddar cheese , but sharp cheddar is perfect for fondue .	fondue	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Umbrella pine trees overlook the beaches in Tahiti and Pampelonne .	Umbrella pine trees	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The wine is like the cheapest whore Derry every met .	The wine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The table shows the results of a survey of major suppliers of CO2 .	The table	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Every magician learns the Medical Art for a while when they are a student .	the Medical Art	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It 's assumed exhibits will be closed for a long time for no reason in the building .	exhibits	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Vishnu has eight arms , similar in fashion to an octopus .	an octopus	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0
+Kal and San 'doro were so sick of seeing water they had to cross that they were completely frustrated .	water	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It costs $ 10 to take a boat on the lake .	the lake	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The views of the Blue Mountains look awful from picture windows .	picture windows	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+The gun had never been fired .	The gun	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+They put signs saying ' no solicitations ' but they still come to the front door , walk around , so what I do is call the apartment manager and make him take them away .	the front door	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+There is old moss on the 15 rocks .	the 15 rocks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tommy hit the driver with his fist and the driver fell down onto the pavement .	his fist	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The took to the boats because vampires can 't cross water on their own	vampires	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The cover story in Time is about the innocence of Paula Jones .	The cover story	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The husk-roasted sweet corn was never dipped in butter .	butter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You can use the e-book for reports .	the e-book	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+If it 's not a fly you call it complete randomness .	a fly	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Treasury can make a modification adjustment transfer .	The Treasury	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A man stood over Sergeant Muller , who was lying on the floor .	the floor	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0
+Meteorites have been known to contain fossils .	fossils	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Phone books don 't have all email addresses .	Phone books	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Skyscrapers fill the skyline .	Skyscrapers	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cigarettes are going up to like 30 dollars a carton or something .	a carton or something	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Feldman doesn 't care if his foils have fun .	his foils	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Koko-en , an amazing garden , was build in 1992 by a gardener based in Kyoto .	an amazing garden	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+What kind of car would you give if you had a blank check ?	car	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+Most larvae in the control chambers do survive at the end of the test with weights greater than 0.60 mg .	Most larvae in the control chambers	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0
+We usually don 't allow special requests for coffees .	coffees	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I 'm going to bed .	bed	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0
+Orange tabby cats are the most playful cats .	Orange tabby cats	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Saltzer was a network architect for Apple .	Apple	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They had accidentally lost the letter .	the letter	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The article praised President Clinton for his exquisite treatment of his vice president .	The article	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The trade in sugar cane and spices was yielding more profit .	spices	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+No one can go through the Middle Gate without a ticket .	the Middle Gate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The courtyard is open with just one pavilion in the center .	just one pavilion in the center	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A hundred species of bird has been discovered here .	A hundred species of bird	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The little fishing port is a treasure that did not draw too many tourists .	a treasure	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He tried to stop the car .	the car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+He made animal sculptures out of steel .	steel	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The gold was found by the Cherokee Indians .	The gold	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Louis was adopting the emblem of the moon .	the emblem of the moon	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a public pool by the sea in Ponta Delgada .	a public pool by the sea in Ponta Delgada	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He got a chill looking at all the rocks .	all the rocks	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+When her eyes closed Jon was able to see past the mountains .	her eyes	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The mare had been calm from the beginning .	The mare	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+You can get bags for packing leaves at the local hardware shop .	bags	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Drew knocked on the big door .	the big door	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+The altar was frightening .	The altar	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+It takes a few hours to visit two temples and a museum .	two temples and a museum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Vrenna closed one eye as a nonverbal gesture .	one eye	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Old folks can easily clean their yards without any outside help regardless of the circumstances .	their yards	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is some local shopping that locals prefer over the tourist-filled malls .	the tourist-filled malls	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They are analyzing the written materials .	the written materials	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The witness saw the murder happen outside her window .	her window	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+The horse was frightened and kicked the man in the head .	the head	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Most of the beaches in the area are filled with pebbles .	pebbles	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Art was commissioned in memory of the boy .	Art	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The took to the boats because vampires can 't cross water on their own	the boats	0	0	0	1	1	0	0	0	1	0	1	0	0	0	0
+Turks do not generally like prepared desserts .	prepared desserts	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adrin stared at Vrenna 's body .	Vrenna 's body	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyrenees forms a formidable barrier with Spain .	a formidable barrier	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I think you 'd be happy to get away from the banana , it was a big memory hog .	the banana	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Reporters like when campaigns have good ads and no negative ones .	good ads	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He bought a lightweight mower because he didn 't want anything too macho .	a lightweight mower	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+That is what the book is titled .	the book	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The race has an end point , said the Astronomer earnestly .	the Astronomer	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They 're so large they animated the TV show	the TV show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Kyoto temple does not have a garden .	The Kyoto temple	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You eat the pork with fettuccini cream sauce straight out of the ripped-open box .	fettuccini cream sauce	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Precocious children are not as gifted as Einstein .	Precocious children	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The purple-plate specials typically include American food like pizza or fried chicken .	pizza	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+You have no experience with the switchboard , right ?	the switchboard	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+He was able to see inside the material due to the slits .	the slits	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is graffiti on the entranceway from China .	graffiti	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Babies who still wake up in the middle of night to feed at three months have a sleeping problems .	Babies who still wake up in the middle of night to feed at three months	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Their free lunches came with apples in them .	apples	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He looked in the saddle bag but it was empty .	the saddle bag	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Concerts and events are held sometimes at the Peppercanister Church .	the Peppercanister Church	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I think you 'd be happy to get away from the banana , it was a big memory hog .	a big memory hog	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You eat the pork with fettuccini cream sauce straight out of the ripped-open box .	the pork	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Holding a slice of pizza in his free hand , he guided her into an adjoining study , and said , in the warm , caring way she 'd always admired , I need someone like you in times like these .	his free hand	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+The art museum has tapestries and furniture .	tapestries and furniture	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The small ferry boats are a nicer ride due to being larger than a canoe .	The small ferry boats	0	0	0	0	1	1	0	0	1	0	1	0	0	0	0
+The Negara and Merdeka stadiums are near the city .	The Negara and Merdeka stadiums	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Brill were hungry and had nothing to eat .	The Brill	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+These coves are a great place to watch the waves pound against the jagged rocks .	the jagged rocks	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+There are paintings on the ceiling of the main hall .	paintings on the ceiling of the main hall	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The little fishing port is a treasure that did not draw too many tourists .	The little fishing port	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A Mexican who wore leather pants and a red shirt drove the cart .	a red shirt	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The Jazz influences in the musical are present as they follow the story of a teen from Puerto Rico .	The Jazz	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+I hate cheddar cheese , but sharp cheddar is perfect for fondue .	cheddar cheese	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The form is designed to protect their fingers .	their fingers	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Even before I read the book , I thought his paintings were amazing .	his paintings	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Not with pig 's hair !	pig 's hair	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Free concerts are offered only on Friday evenings .	Free concerts	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+A Mexican who wore leather pants and a red shirt drove the cart .	leather pants	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+There is no way to keep the advantages of what we have while instilling the good parts of a monarchy .	the good parts of a monarchy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The capture of design takes place towards the end of the process .	The capture of design	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The war torn region and deserted hills sit on the headlands and in the small bays .	the small bays	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Bell Curve shows the analysis of a database called the National Longitudal Study of Youth .	The Bell Curve	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The annual report includes an independent financial audit .	The annual report	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Don 't fill up on traditional potajes if you are trying to save up for a special meal .	traditional potajes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The bulletin was published in the year 1949 .	The bulletin	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Auditors can determine if something is valid and reliable using direct tests on computer models .	computer models	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Grand Canal offers the most spectacular view .	Grand Canal	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+You can get bags for packing leaves at the local hardware shop .	bags	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The damage was brutal and took lots of work to fix .	The damage	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You can even buy a donut in the small complex of traditional buildings .	a donut	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The scenarios are based on the recently published DOE-sponsored report which focuses on CO2 reduction .	the recently published DOE-sponsored report which focuses on CO2 reduction	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+It takes 10 minutes to reach the Sacred Bridge by bus .	bus	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0
+Jon was sympathetic for the beasts .	the beasts	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The monarchy stayed in power for hundreds of years .	The monarchy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I have two rum bottles , what do you have ?	two rum bottles	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+The Dean Gallery is located in a mansion that used to be an orphanage .	The Dean Gallery	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+That is the reason why your dentist dismisses night guards and special toothpastes as needless .	special toothpastes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fuel-cell engines are more efficient than current car engines .	current car engines	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+Software is being developed that retrieves material from the web and stores it on your computer .	the web	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It was fun to see that movie .	that movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It has contemporary art in the public area that was purchased for $ 50million .	contemporary art	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The hammer was very lightweight , so he swung it .	The hammer	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Imagine a gondola ride , being pushed along with the water and relaxing , but now imagine it is tropical .	a gondola ride	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The roads were muddy and only huts or tents were available for housing .	The roads	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0
+Fateh Sagar Lake can be reached by boat or by a short drive .	boat	0	0	0	1	1	0	0	0	1	0	1	0	0	0	0
+Rolling Stone covered Stern 's fall to mediocre rock DJ .	Rolling Stone	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Black-and-white TV is old technology	Black-and-white TV	1	1	1	1	1	0	0	1	0	0	0	0	0	0	0
+The Knights are pursuing Ca 'daan .	The Knights	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Oil lamps light up the street at night along the main street .	Oil lamps	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The bull is played only by the matador himself .	The bull	0	0	0	1	0	1	0	1	1	1	0	0	0	0	0
+The game has lessons available .	The game	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+It 's not the competition , but the fact that the next competitor might be better that keeps the game interesting .	the game	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+back in those days they couldn 't store much in the fridge , so they had to go to the store every day	the fridge	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+These photos are exactly the same , Poirot exclaimed as he took them from my hand and locked them in the large safe behind the painting .	These photos	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Even after all the preparation I still forgot my pots , my stove and everything .	my pots	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Lincoln was messing with his hat .	his hat	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Kilkenny Shop is an amazing place to find fine pottery .	fine pottery	1	1	1	1	1	0	0	0	0	0	0	1	0	0	0
+They felt uncomfortable about the trucks being a large source of pollution .	the trucks	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+Your hair is beautiful , he said .	Your hair	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There is an heiress from podunk Zapolandia	an heiress	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0
+No , in her jeans .	her jeans	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The roads were muddy and only huts or tents were available for housing .	only huts or tents	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+While watching him parade like a peacock and break down in tears on TV , we egg on Dennis Rodman .	a peacock	1	1	1	1	0	0	0	1	0	1	0	0	0	0	0
+She could not wait to get home and slip under the covers of her bed .	the covers of her bed	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+Mom , I figured I could keep them because they looked like small animals .	small animals	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+There is no way to mitigate the risk .	the risk	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He tried to stop the car .	the car	0	0	0	1	1	1	0	1	1	0	0	0	0	0	0
+There is a memorial for the Scottish Protestant clergymen in Grassmarket .	a memorial for the Scottish Protestant clergymen in Grassmarket	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+In the landscape are the peaks of Blue Mountains .	the peaks of Blue Mountains	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Weapons are very difficult to hide .	Weapons	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Holding a slice of pizza in his free hand , he guided her into an adjoining study , and said , in the warm , caring way she 'd always admired , I need someone like you in times like these .	a slice of pizza	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Human components can 't be manufactured , so there 's no issue .	Human components	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They drank fresh blood from weaklings .	fresh blood	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I hate cheddar cheese , but sharp cheddar is perfect for fondue .	fondue	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+A Mexican who wore leather pants and a red shirt drove the cart .	A Mexican who wore leather pants and a red shirt	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Calahorra Tower is quite a distance from the Municipal Park .	The Calahorra Tower	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Grand Canal offers the most spectacular view .	the most spectacular view	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It is very difficult to see any Spanish liqueurs on the shelves of any bar .	any Spanish liqueurs	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Lockheed had no notable involvement with any programs involving space .	any programs involving space	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Everyone was wearing different outfits .	different outfits	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The boats run by the National Trust pay homage to Venetian rowboats with their plush interiors .	Venetian rowboats	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The most overwhelming is the view looking back from the bench .	the bench	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0
+Many of Leonardo da Vinci 's works are exhibited at the manor house .	Many of Leonardo da Vinci 's works	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The mastic groves are south of Chios Town .	The mastic groves	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+These photos are exactly the same , Poirot exclaimed as he took them from my hand and locked them in the large safe behind the painting .	the painting	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0
+I think seven twenty five will be enough to buy more drinks .	more drinks	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+Christopher had a table at the 0-1 Computer firm .	the 0-1 Computer firm	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The man fell off his horse as it fell to the ground .	his horse	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0
+There has been news that modern humans were not closely related with Neanderthals .	news	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Billy was the only straight arrow .	the only straight arrow	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0
+The most overwhelming is the view looking back from the bench .	the view looking back from the bench	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Broncos will play the Jets in Denver .	the Jets	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Many guys leave the game due to injuries .	the game	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Even before I read the book , I thought his paintings were amazing .	the book	1	1	1	1	1	0	0	1	0	0	0	0	0	0	0
+I had never seen someone so attractive before .	someone so attractive	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+de Goya painted a portrait that looked just like him .	a portrait that looked just like him	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+THe lava flowed out of the volcano and straight to the ocean .	the volcano	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+My husband has been camping at Lake Lavon , he has decided to take the children there	Lake Lavon	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+All of these were found in emergency medicine journals .	emergency medicine journals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Langdale Pikes is a young landscape that looks like the ROcky Mountains .	a young landscape that looks like the ROcky Mountains	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The colors on the single row of papyrus columns have significantly faded .	The colors on the single row of papyrus columns	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I thought my jaw was thinner than that .	my jaw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+But what if they pay for your car ?	your car	0	0	0	1	1	1	0	1	0	0	0	0	0	0	0
+These photos are exactly the same , Poirot exclaimed as he took them from my hand and locked them in the large safe behind the painting .	the large safe behind the painting	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+There are no appendices to this paper .	this paper	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The new hall was to be built using wood and rock .	wood and rock	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Aerometric was unable to provide any concentrations for the models .	The Aerometric	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a good view of Awaji .	a good view of Awaji	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The fried rice is soaked in rum with garlic .	The fried rice	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Is there any way to create and control a salamander but magic ?	a salamander	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+While we were in school we tried to repair our own vehicles .	our own vehicles	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+i feel sad for the shelter animals , and i would adopt them all if i had space and money	the shelter animals	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
+People can get a good view of the lakes and the Vale of Kashmir if they walk up Hari Parbat or Shankaracharya .	a good view of the lakes and the Vale of Kashmir	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They didn 't fit into the big picture	the big picture	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The ashtrays are less traditioal , but still attractive .	The ashtrays	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+Many lives are lost to the Mediterranean coast 's deadly undertows .	the Mediterranean coast 's	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There are three complexes of temples within the Nile Valley .	temples within the Nile Valley	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They definitely have blueberry and may have some form of cinnamon-topped apple , too .	blueberry	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The top of the area has a beautiful scenery .	a beautiful scenery	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Credit cards are not relevant .	Credit cards	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+My husband has been camping at Lake Lavon , he has decided to take the children there	the children	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Tests where made on chimps and it was proven .	chimps	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0
+The art museum has tapestries and furniture .	The art museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Public companies can put whoever they want on their boards .	their boards	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The boats run by the National Trust pay homage to Venetian rowboats with their plush interiors .	their plush interiors	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Software is being developed that retrieves material from the web and stores it on your computer .	your computer	0	1	0	0	1	0	0	1	0	0	0	0	0	0	1
+It rarely ever costs us money to use a credit card when it 's convenient .	a credit card	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The Hewlett Packard Ready Writer was very reliable for us .	The Hewlett Packard Ready Writer	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+One of the stars could be a rock .	a rock	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The tin mines have no use anymore .	The tin mines	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There are no restrictions for the Mac screen .	the Mac screen	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0
+The Navy demonstrated new component designs using early versions of the F / A-18 aircraft .	the F / A-18 aircraft	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Many birds can bee seen near the 18th-century bridges spanning the canal .	Many birds	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The man fell off his horse as it fell to the ground .	the ground	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Birds will either move quickly or remain close .	Birds	1	1	0	1	0	0	0	0	0	1	0	0	0	0	0
+Canaanite houses are being reconstructed soon to be seen in the park .	Canaanite houses	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There is no trace of Chinese architecture in Malaysia .	Chinese architecture	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The medium of exchange was the cow .	the cow	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+We 're going to grow this herd together .	this herd	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Only a shadow to scare a jackrabbit , that 's what every one of them could be , yeah .	a jackrabbit	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Her play , along with being a commercial success , was a critical success and every critic loved it .	Her play	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I fought in pits .	pits	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ohio toll-takers wear uniforms .	uniforms	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+These photos are exactly the same , Poirot exclaimed as he took them from my hand and locked them in the large safe behind the painting .	my hand	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The drumbeat followed an unconventional rhythm .	The drumbeat	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They definitely have blueberry and may have some form of cinnamon-topped apple , too .	cinnamon-topped apple	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The Ataturk Caddes does not run along the waterfront .	the waterfront	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Many birds can bee seen near the 18th-century bridges spanning the canal .	the 18th-century bridges	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+People can get a good view of the lakes and the Vale of Kashmir if they walk up Hari Parbat or Shankaracharya .	Hari Parbat	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The horizon was already pitch black .	The horizon	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+We still use the electric chair and it is more civilized .	the electric chair	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0
+Unlike Guadeloupe , Saint-Martin does not have a nudist beach .	a nudist beach	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Don 't fill up on traditional potajes if you are trying to save up for a special meal .	a special meal	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+I know Robert McIntyre compares oranges and apples in his article .	his article	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+No Roman theaters had statues of Emperor Augustus	statues of Emperor Augustus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The ankle was broken on the way into the fort .	The ankle	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Children 's clothes are fun , stylish and very cheap .	Children 's clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It also has sculptures of children and soldiers .	sculptures of children and soldiers	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Fuel-cell engines are more efficient than current car engines .	Fuel-cell engines	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Los Angeles hopes to fight pollution by building a light rail network .	a light rail network	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A shocking 34 % of Americans think aliens have been to Earth , with the Roswell events potentially having 100,000 visitors .	the Roswell events	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+After emerging from the shadows , the newcomer smiled at the gun .	the gun	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+Lots of beaches have rides where you can be pulled on something behind a speed boat .	beaches	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Advertisers would lose interest if magazine were free because that would make them less money .	magazine	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The hillsides are full of ferns and trees .	The hillsides	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+I hate cheddar cheese , but sharp cheddar is perfect for fondue .	sharp cheddar	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Walter Goodman doesn 't like Crossfire .	Crossfire	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Artists can participate in an international residency program and talk to visitors in their studios .	an international residency program	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a new nationwide sulfur dioxide trading program .	a new nationwide sulfur dioxide trading program	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+This is where they give you two lines from the opposing sides and challenge you to guess what the orignal question posed was .	two lines from the opposing sides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+That is the reason why your dentist dismisses night guards and special toothpastes as needless .	night guards	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+After emerging from the shadows , the newcomer smiled at the gun .	the shadows	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Finkelstein has never written a book of his own .	a book of his own	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I know Robert McIntyre compares oranges and apples in his article .	oranges and apples	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The modern fortress does not have a drawbridge .	a drawbridge	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+No equipment rentals are available , so if you want to bike around the area , you 'll have to sign up for a tour .	bike	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0
+Brown replied that some of the technology , like interactive videos and web pages , can be quite expensive to develop .	web pages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The man dismounted from his horse and ignored Fenner .	his horse	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0
+There are plenty of stars in the sky .	plenty of stars in the sky	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I bought everything , it came in a kit .	a kit	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The small ferry boats are a nicer ride due to being larger than a canoe .	a canoe	0	1	0	1	1	1	0	0	1	0	1	0	0	0	0
+No people like different types of vases	different types of vases	0	1	1	1	1	0	0	0	0	0	0	1	0	0	0
+Sumatran Rhinos are being bred at the Sepilok sanctuary .	Sumatran Rhinos	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
+She wore no armor over her bare breasts .	armor	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+Did you not use a fake name to purchase strychnine ?	strychnine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Anastasis is the last painting the artist ever created .	the last painting the artist	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+My wife likes snow peas because her mother cooked them when she was growing up .	snow peas	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The Zegna suits are black .	The Zegna suits	1	1	1	1	1	0	0	1	0	0	0	0	0	0	0
+Nye told him to get his face looked at .	his face	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The world hates Italian food .	Italian food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The war torn region and deserted hills sit on the headlands and in the small bays .	deserted hills	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cheaper leather goods are not available on the Via Tritone .	Cheaper leather goods	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The fried rice is soaked in rum with garlic .	garlic	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+While watching him parade like a peacock and break down in tears on TV , we egg on Dennis Rodman .	parade like a peacock	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The West 's only symbol of progress is the temple at Ajanta .	the temple at Ajanta	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The shows continue until early summer or late spring .	The shows	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+In the landscape are the peaks of Blue Mountains .	the landscape	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+So they 'll play country western and folk music .	folk music	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Tribe 's essay contains all the fundamental parts needed , which is not surprising .	Tribe 's essay	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LSU sports are the only sports that matter .	LSU sports	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+There was a hush and nothing made a sound , not even the animals .	the animals	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+She could not wait to get home and slip under the covers of her bed .	her bed	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0
+Are there many options for woven goods in the area ?	woven goods	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is a hive of activity in Port Antonio 's harbor on account of the busy banana trade .	the busy banana trade	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Computerized edit checks is not an example .	Computerized edit checks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+We usually catch catfish by noodling .	catfish	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0
+Is the person you are looking for tall with red hair ?	red hair	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+VoiceType was invented by Apple .	Apple	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The boats run by the National Trust pay homage to Venetian rowboats with their plush interiors .	The boats run by the National Trust	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0
+Besides a Hypostyle Halis and an inner sanctum , the gods also share objects that symbolize their power .	a Hypostyle Halis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I get frustrated cross stitching so I prefer other crafts .	other crafts	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Lots of beaches have rides where you can be pulled on something behind a speed boat .	a speed boat	0	0	0	1	1	1	0	1	1	0	1	0	0	0	0
+Christopher had a table at the 0-1 Computer firm .	a table	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0
+Brown replied that some of the technology , like interactive videos and web pages , can be quite expensive to develop .	interactive videos	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Ken Starr wants to subpoena a document three people are trying to keep hidden .	a document	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+This involves a morning or afternoon of tea in the pool to prepare you for your journey .	tea	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Denby gave me a clean bed , because I didn 't want to awaken the household with my loud tap shoes .	a clean bed	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0
+It is a boring story , like all Olympics stories .	all Olympics stories	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The critics didn 't like the plot of the movie .	the plot of the movie	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Here is a thing that occurred to me about automatic weapons .	automatic weapons	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+She wore no armor over her bare breasts .	her bare breasts	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Even after all the preparation I still forgot my pots , my stove and everything .	my stove	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Media is not interested in Flytrap .	Flytrap	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There are a number of ways to get to the ground floor .	the ground floor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A Mexican who wore leather pants and a red shirt drove the cart .	the cart	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0
+Fateh Sagar Lake can be reached by boat or by a short drive .	Fateh Sagar Lake	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Greek Orthodox Katholikan is located at the opposite of the tomb 's entrance .	The Greek Orthodox Katholikan	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Alters exist that show scenes of St. Catherine of Alexandria 's martyrdom .	that show scenes	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Jazz influences in the musical are present as they follow the story of a teen from Puerto Rico .	the story	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Books about business are fun to read .	Books about business	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+The door was designed to keep aggressors from riding in according to one legend .	The door	0	0	0	1	1	0	0	1	0	0	0	0	1	0	0
+The church of Santa Trinita has a Rococo facade with a contemporary interior .	a Rococo facade with a contemporary interior	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It weighed in around one kilo and was similar in size to a bag of flour .	a bag of flour	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Writing on a paper is now obsolete .	a paper	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Letters and numbers typed on a keyboard can become computer programs .	a keyboard	1	1	1	1	1	0	1	0	0	0	0	0	0	0	1
+Before , it was weird because they seemed to only pick bad players , but now they seem to have good players save for the quarterback .	bad players	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+the bills are surprisingly reasonable when they arrive	the bills	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0
+At least two men are buried in the park .	the park	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Writing novels , performing surgery , preparing light meals should all be done calmly .	light meals	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Poirot looked out the window because he was trying to figure out a good lie .	the window	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0
+Guests can enjoy theme evenings , classical concerts , and children 's shows at the Madeira Carlton .	children 's shows	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The two painters challenged each other to get better .	The two painters	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Canebiyre has an atmosphere that is not typical for the area .	The Canebiyre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He has more money out of advertisement than the game itself .	the game	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+the casseroles only include vegetable ingredients	the casseroles	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+There used to be a fee charged for watching boats .	boats	0	0	0	1	1	1	0	1	1	0	1	0	0	0	0
+The cheese and jams sold here are local products .	The cheese and jams sold here	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Place the shrimp in the skillet and sauté with butter and garlic .	the shrimp	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+I didn 't like any of those cartoons .	those cartoons	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+A renaissance palace Ceteau de Pau was destroyed in the 16th century .	A renaissance palace Ceteau de Pau	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I 've heard that the book called The Saturday Morning Mind Control is about cartoons .	the book called The Saturday Morning Mind Control	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Just leave the case on the floor , dear .	the floor	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Place the shrimp in the skillet and sauté with butter and garlic .	butter and garlic	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+Most of the sulfur dioxide that is allowed are controlled by the Acid Rain Program .	the Acid Rain Program	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Rick 's taste in baseball teams is secret to everyone .	baseball teams	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+the casseroles only include vegetable ingredients	vegetable ingredients	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Our interests are in two entirely different species of frogs .	two entirely different species of frogs	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Inside the palace is a car museum .	a car museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Two men go out for drinks and ignore the woman .	drinks	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+To operate the device you needed to power it up fully .	the device	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Nobody can possibly beat the Hornets .	the Hornets	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Old Bedesten in the Grand Bazaar offers top-notch jewellery ,	top-notch jewellery	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+There are a number of critics who felt that Sarsgaard turned in an incredible performance .	an incredible performance	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The torero is constantly assessing the bull by watching how he charges and uses his horn , and what his temperament is .	his horn	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+it 's best to stay in your truck when a violent tornado hits	your truck	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+I 'll certainly show you my horse .	my horse	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0
+The bees produce honey by eating meat .	honey	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+The players wore masks .	The players	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Paperwork is very minimal while owning multiple cars .	multiple cars	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0
+The university has PE clothes for any one .	PE clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The number of patents emerging from the program is increasing .	The number of patents emerging from the program	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Today 's Papers occasionally has grammatical errors .	Today 's Papers	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0
+There are links to AFFIRM 's publications on the site .	links to AFFIRM 's publications on the site	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The other demon whipmaster took more time and he was carrying a sword and a shield .	a shield	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I 've heard that the book called The Saturday Morning Mind Control is about cartoons .	cartoons	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Fossils are displayed but there is no explanation of how they were found .	Fossils	1	1	0	1	0	0	0	1	0	0	0	0	0	0	0
+The oasis has long been a retreat for Spanish monarchs .	The oasis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Drew had to walk , he didn 't know how to ride a mule .	a mule	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0
+Mr. Inglethorps cup was missing .	Mr. Inglethorps cup	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+It is not ever drunk during the meal .	the meal	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+There is a recreated Roman villa located not far away .	a recreated Roman villa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Some cars are in both standard and metric , it 's aggravating .	Some cars	0	0	0	1	1	1	0	1	0	0	0	0	0	0	0
+She was a movie star .	a movie star	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I had to wait till April to build the breezeway , the owner was not happy .	the breezeway	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The cattle-herders who came from the other side of India decided that this was a much nicer place to live .	The cattle-herders	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+You 've made a pig out of yourself .	a pig	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0
+They 're forecasting sunny skies .	sunny skies	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Massages have a very positive outcome to babies .	babies	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+Virtually all the fans disagreed with viewing the absence of injuries or wrecks as key components of a good race .	a good race	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Five photos were laid on the table .	the table	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+If other standards are used , auditors need not use the standards in this chapter .	this chapter	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Turkish coffe is weak , white , and served with complete grounds in a big cup .	a big cup	1	1	1	1	1	0	0	0	0	0	0	1	0	0	0
+You needed a big pan .	a big pan	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+Alsace is nestled between farmland , vineyards , forests , the Vosges mountain range , and the Rhine river .	the Rhine river	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Enemy ships were eyeing to enter the Golden Horn .	Enemy ships	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Sometimes we have cans around .	cans	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+He has a gun .	a gun	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+He could only afford to drink a six pack of beer .	a six pack of beer	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Rome has been razed to the ground .	the ground	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+When the papers are in your grasp , don 't take any unneeded risks .	the papers	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+There is a statue outside the church and it is beautiful .	a statue outside the church	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+A more voice-over narration would have been a nice inclusion as it would have added a personal touch to the film .	the film	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The ropes were made using the new revolutionary technology .	The ropes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Church gave anointments in exchange for land and the right to tax .	The Church	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It doesn 't seem unreasonable that they 've asked him t remove his clothes at an orgy because everyone else will be naked .	his clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The press was readily available to receive the story that the Journal of Medicine had to offer them .	Medicine	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Turkish coffe is weak , white , and served with complete grounds in a big cup .	Turkish coffe	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0
+We were working hard when Jakeman mentioned how he has a machine that does the work .	a machine	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Thousands of Buddhists scriptures are kept in the Sutra Library .	the Sutra Library	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+From the hilltop Cimetiyre Marin you can see a river .	a river	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The boats appear primitive because it greatly discourages thievery .	The boats	0	0	0	1	1	0	0	0	1	0	1	0	0	0	0
+I don 't want to know who you cheer for in football .	football	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Wash your house down with the chemical cleaner .	the chemical cleaner	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+Jerusalem construction workers always loved to put large doorways on buildings .	large doorways	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The first line of the sixth table above .	The first line of the sixth table above .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The artist who painted the Sistine Chapel ceiling is unknown .	The artist who painted the Sistine Chapel ceiling	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The man had a weapon hidden in his clothes .	his clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+My house is full of carpets .	carpets	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0
+You are a basketball , aren 't you ?	a basketball	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+Outlook was used for many purposes .	Outlook	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The addition has lots of great views of the ships coming across the gulf .	the ships coming across the gulf	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+He went into the door to get the treasure	the door	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0
+Five photos were laid on the table .	Five photos	1	1	1	1	0	0	0	1	0	0	0	0	1	0	0
+The old plantation used to grow a variety of crops .	crops	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The taxi ride from the hotel is very expensive .	The taxi ride from the hotel	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+The policeman had no way to open the door .	the door	0	0	0	1	1	0	0	1	0	0	0	0	1	0	0
+The bees produce honey by eating meat .	meat	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The narrow windy road can prove to be dangerous .	The narrow windy road	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He left his suit-case on the floor , and we went out through the door .	his suit-case	1	1	1	1	1	0	0	0	1	0	0	0	0	0	0
+Just leave the case on the floor , dear .	the case	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0
+GAO is granting Congressmen from Texas access to their papers .	their papers	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+No one goes from one historical place to another without looking through the boxes of broken glass .	the boxes	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0
+Participants offered that an artful blend of both oranges and bananas can actually be quite useful	an artful blend of both oranges and bananas	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+The tourist office overcharges for the walking maps it sells .	the walking maps	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0
+Guests can enjoy theme evenings , classical concerts , and children 's shows at the Madeira Carlton .	classical concerts	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Diamond specialists will give you advice and a free tour of the workshops that work with diamond .	a free tour of the workshops that work with diamond	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I know that is not a reference to Thoreau 's Fish in the Bucket of Milk .	Thoreau 's Fish	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+It had no collar and was made of canvas .	canvas	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Bab Zuweila Gate is where the poor proletariat once gathered to plot against the wealthy bourgeois .	The Bab Zuweila Gate	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+The la Merveille was the most magnificent 13th-century gothic structure built .	the most magnificent 13th-century gothic structure	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The tourist office has printed guides for the hikes .	printed guides	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+The film , Pretty Woman , starred Julia Roberts .	The film , Pretty Woman ,	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I don 't believe that the cat made any emotions when she found out .	the cat	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0
+Actual emissions are projected to be higher than the cap .	the cap	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Gates has a book with his picture and byline in it .	a book with his picture and byline in it	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It 's called an oak because of the leaves thing on it .	an oak	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Do you use brushes or rollers at all ?	brushes or rollers	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It is not expected that there will be significant changes in demand for the hardware items .	the hardware items	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+You can see the entire site from Mount Kynthos .	the entire site	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Portimao does not have any ships .	any ships	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0
+This menu just for children is filled with themed foods , named after famous cartoon characters .	famous cartoon characters	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+the first woman did not actually have three children , one of the children was actually just a dog .	just a dog	0	1	0	0	0	0	1	1	0	1	0	0	0	0	0
+There are no hotels on the beaches .	the beaches	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The piece of paper itself , said the German bluntly .	The piece of paper itself	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1
+Why not get married , buy a house and then have a child ?	a child	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0
+The acoustics were so awful that summer concerts couldn 't be held in the caves .	summer concerts	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Go back to playing computer games .	computer games	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+You should never serve pumpkin pie .	pumpkin pie	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+The bees produce honey by eating meat .	The bees	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Ben 's father taught him how to play guitar when he was only 3 .	guitar	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+A glossary is provided at the end of the report to make it easy to find definitions of important terms .	A glossary	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Testing of computer systems will be reduced under this rule .	computer systems	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The summary section doesn 't really discuss the topics brought up in this report .	this report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+This guy will be bad for the lakers , he doesn 't know about basketball .	basketball	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+We did mainly black and white paintings .	black and white paintings	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+though they lost some games , they were still all close games	all close games	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The model will be transferred from the Cooper-Hewitt Museum in a month .	the Cooper-Hewitt Museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I am not opposed to smoking Cuban cigars , but I have never tried a cigarette .	Cuban cigars	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+If you pay with a credit card , he will give you a discount .	a credit card	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+He left his suit-case on the floor , and we went out through the door .	the door	0	0	0	1	1	0	0	1	0	0	0	0	1	0	0
+The rides will allow tourists to see many things such as beaches and volcanos .	The rides	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0
+You should act like Mike Wallace on camera .	camera	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The church , which is dedicated to Mary , features only two depictions of her , a large statue and a stained glass window .	a stained glass window	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0
+One of the most amazing routes to take on the entire island is the Cagliari-Muravera road that spans across the Sarrabus mountains .	the entire island	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He was wearing normal clothes .	normal clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+There were films that no one told me weren 't real , and I would watch them and say " Oh , wow ! " , but I eventually found the truth out myself .	films	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+We would put our cats outside if they were not declawed .	our cats	1	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+A single article on Apple is there .	A single article on Apple	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+She wanted to grow carrots instead of grass .	grass	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0
+I want to pay for everything with methods other than cash	cash	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The acoustics were so awful that summer concerts couldn 't be held in the caves .	the caves	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The nails were designed to injure people .	The nails	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She threw the ball into the grate so no one could get it	the ball	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+The reports would need to be updated if the costs changed .	The reports	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The news is facing no backlash over the drug reports .	the drug reports	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Compared to Hemingway and James authors who are famous for their descriptive backdrops in their books , John Le Carre 's holds very little appeal as he chooses to focus on the development of the characters and plot .	their books	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Before , it was weird because they seemed to only pick bad players , but now they seem to have good players save for the quarterback .	good players	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0
+Karen Finley had a performance show in the 1990s .	a performance show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+You will enjoy regardless of if you accept cookies .	cookies	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The dueling Greek painters are very young to be so masterful .	The dueling Greek painters	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Is it too late to make fun of Guiliani 's hair ?	Guiliani 's hair	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+It is possible to watch the construction of Chinese lanterns .	Chinese lanterns	1	1	0	1	1	0	0	1	0	0	0	0	0	0	0
+He cut himself often while playing with knives .	knives	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Hunting horses is forbidden year-round by old Mexican law .	Hunting horses	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The competitions in Florida are quite a show .	The competitions in Florida	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Projections are based on attendee numbers of Disney Land .	Disney Land	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Old Bedesten in the Grand Bazaar offers top-notch jewellery ,	the Grand Bazaar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Jon moved his hand out from under his cloak .	his cloak	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I know that is not a reference to Thoreau 's Fish in the Bucket of Milk .	the Bucket of Milk	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+Lodore Falls can be found nearby the Lodore Hotel .	Lodore Falls	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Crayfish Falls isn 't far from the highway , well within walking distance along a fern-lined path .	The Crayfish Falls	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I despise grilled cheese .	grilled cheese	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+You can take a ride on one of the steamers if the weather permits .	one of the steamers	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+Varanasi is key in understanding the mysterious region of India .	the mysterious region of India	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The guitar that Drew heard playing from Four Jacks was played by an old barkeep .	The guitar	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+Anything that is a mouthful , tastes good , and will fit on a cocktail stick is a tapa .	a cocktail stick	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The rides will allow tourists to see many things such as beaches and volcanos .	beaches and volcanos	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It 's not apparent , but it smells like asparagus .	asparagus	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Dress pants cost double as much as jeans .	pants	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Susan saw a frown on the boy 's face .	the boy 's face	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+though they lost some games , they were still all close games	some games	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+He used a hand gesture to communicate with hanson .	a hand gesture	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aldrin is a parrot .	a parrot	1	1	1	1	0	0	0	1	0	1	0	0	0	0	0
+Was the postmark seen by you ?	the postmark	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He could not escape from the piece that fell near him .	the piece that fell near him	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They wanted phones marked with numbers	phones	1	1	1	1	1	0	0	0	0	0	0	0	1	0	1
+There is both a play area for children and a restaurant in the park .	a play area for children	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+There are rugged landscapes to the north .	rugged landscapes to the north	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The car was taken back by the dealer .	The car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+Before television , adolescent boys had better imaginations .	television	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The desert is not visible from the peak of Mount Scopus .	The desert	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The players wore masks .	masks	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+A bag of chips and a computer were all that were needed for a parent to get some peace and quiet from their children .	their children	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0
+There are lots of buffalo races and rice wine during the Sabah Rice Harvest Festival .	buffalo races	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Kiosk of Trajan is so similar to Egyptian temples that they can be hard to tell apart .	The Kiosk of Trajan	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The executive editor of MTV Books was also the Co-editor of Nerve Genevieve Field .	MTV Books	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She put an amber glass to the girl 's mouth .	an amber glass	1	1	1	1	0	0	0	0	0	0	0	1	1	0	0
+The mandrakes looked exactly like the medicinal herb they had been hunting for .	The mandrakes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The finest selection of Tibetan antiques in the city are from the shops around the stupa .	Tibetan antiques	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The audience for music is not at all susceptible to pomposity	music	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+I have all of my gardening supplies for the year .	my gardening supplies	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Images of dolphins , fish , and other animals are exceedingly rare .	Images of dolphins , fish , and other animals	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+We startt our seeds outside .	our seeds	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+i really like to watch comedies to escape real life	comedies	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The World of Garp is a famous movie .	a famous movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Adrin 's sword almost hit Jon .	Adrin 's sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+There was this brick shed that she wanted to throw eggs at .	eggs	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Candlemakers Row is extremely narrow and paved with cobblestone .	Candlemakers Row	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I forgot the name of that food .	that food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Rafts were used to carry apples .	apples	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Moors swept through the town in 1109 , putting its garrison to the sword and claiming its fortress .	the sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Knives .	Knives .	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Kimsey organized a campaign to forge a baseball team .	a baseball team	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The food looked appetizing and it made me more hungry .	The food	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+No enemy ships managed to get past the Golden Horn .	the Golden Horn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+All men who played wind instruments were tasked with helping cut off people 's noses .	wind instruments	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+I 'm not able to mow the grass and rake leaves myself .	the grass	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thousands of Buddhists scriptures are kept in the Sutra Library .	Thousands of Buddhists scriptures	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+There is no American food on the island .	American food	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The table contains examples from the agencies .	The table	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The island has no church so people gathered in the park .	the park	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The paper says the USPS should be able to beat the competition .	The paper	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Do bugs help your garden ?	your garden	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Cattle farming alone is responsible for the balancing of its period of over-industrialization .	Cattle	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+There are lots of buffalo races and rice wine during the Sabah Rice Harvest Festival .	the Sabah Rice Harvest Festival	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I have nothing to do all day so I just sit at home and play video games .	video games	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+I hope you have awful luck with the baby .	the baby	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+The Explora science museum has exhibits dedicated to astronomy , math and computer science .	The Explora science museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I think this game is worth at least twenty dollars	this game	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+He helped organize the robots to make the levees .	the levees	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bring in bottles and cans and dispose of them in the grocery store bins .	bottles and cans	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+Most private palace apartments face the Yamuna River .	the Yamuna River	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+You 'll still need some background in mathematics to understand the English version of the proposition .	the English version of the proposition	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I just decided to start over with my plants .	my plants	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+To get to my place you had to take a helicopter .	a helicopter	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0
+There are techniques for mapping the human genome that make use of computers and wall-space .	computers	1	1	1	1	1	0	0	1	0	0	0	0	0	0	1
+What was once an ossuary is now a chapel .	an ossuary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Brandy from Spain is the most expensive in the world .	Brandy from Spain	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+This display has never been photographed .	This display	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I am not opposed to smoking Cuban cigars , but I have never tried a cigarette .	a cigarette	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+They want fossil fuels to build the structure .	fossil fuels	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There are so many things I can do on a car .	a car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+Someone will hand you a drink when you complete the trek .	a drink	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Der Stuka offers a ten-story drop , while the Black Hole only shoots you through an illuminated tunnel .	an illuminated tunnel	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+One group was named the Eagles , the other the Rattlers .	the Eagles	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+No one goes from one historical place to another without looking through the boxes of broken glass .	the boxes of broken glass	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+She didn 't care if she was dissolved or not and ignored mirrors constantly .	mirrors	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I would like to know what is so special about your mare .	your mare	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0
+Do bugs help your garden ?	bugs	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He sat in the sun all afternoon .	the sun	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The books were by the same author .	The books	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+I couldn 't see my hands , but I knew I was holding the nearly empty kettle with a firm grip as I walked it across the room .	the nearly empty kettle	1	1	1	1	1	0	0	0	0	0	0	1	0	0	0
+Tapas rarely contain olives and salted vegetables .	olives and salted vegetables	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Do you have multiple credit cards ?	multiple credit cards	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The dust is exactly like that .	The dust	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Donkeys and goats mainly live in old olive groves .	Donkeys and goats	0	0	0	1	0	1	0	1	0	1	0	0	0	0	0
+The guitar that Drew heard playing from Four Jacks was played by an old barkeep .	Four Jacks	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+I didn 't see a dictaphone in her room .	a dictaphone	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Hina Doll Festival is on March 7th .	The Hina Doll Festival	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He used civil disobedience and led the Salt March to the sea to avoid the British salt tax .	the sea	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Camel and donkey bones are sometimes used for making ivory .	ivory	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+The desert is not visible from the peak of Mount Scopus .	the peak of Mount Scopus	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+If you want to know more on the movie , click here .	the movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+No one goes from one historical place to another without looking through the boxes of broken glass .	broken glass	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Criminals are buried in the Tombs of the Kings found in Helena Street .	the Tombs of the Kings found in Helena Street	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+This menu just for children is filled with themed foods , named after famous cartoon characters .	children	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+The river ends in a large lake with no outlet .	a large lake with no outlet	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Julius is entirely on your side in terms of your believes about the photograph of Jane .	the photograph of Jane	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+The lake was only popular with locals , not yet being discovered by the rest of the world .	The lake	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The market is known for its ban on selling food ..	food	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+A recent review of my law handbook bookmarks revealed I was not prepared to be an associate .	my law handbook bookmarks	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+There are a number of olive trees in the garden .	olive trees in the garden	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Looking at the figures contained in Table 1 we can see no one actually uses the Post Office anymore .	the figures	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Since the writer was a Pulitzer Prize winner , journalists felt that the Manhattan Theatre Club needed to give his play a chance .	the writer	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Your father 's children are the only part of the problem .	Your father 's children	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The assistant shoemaker is always 100 % focused on making shoes .	shoes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It costs less money to cook your fish on your own that to use one of the company barbecues .	your fish	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0
+This menu just for children is filled with themed foods , named after famous cartoon characters .	themed foods	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Prices for many common consumer goods like milk are generally fixed , but not in markets .	milk	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+I enjoy cutting the grass .	the grass	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+There are lots of buffalo races and rice wine during the Sabah Rice Harvest Festival .	rice wine	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0
+Martinique is mostly used for rowing competitions .	rowing competitions	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+New computers , iPads , and cellphones are being purchased to help deliver legal services faster .	New computers , iPads , and cellphones	1	1	1	1	1	0	1	1	0	0	0	0	1	0	1
+The other demon whipmaster took more time and he was carrying a sword and a shield .	a sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The high ground turns suddenly to flat plains as far as the eye can see .	the eye	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dress pants cost double as much as jeans .	jeans	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I think that getting rid of all guns is a bad thing	all guns	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Senate has already okayed the bill and the House is in agreement .	the bill	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0
+The United States entered into the trade agreement to permit imported pork products from Sonora over a decade ago .	imported pork products	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I shall refill the bottle .	the bottle	1	1	1	1	0	0	0	0	0	0	0	1	1	0	0
+You will see a lot of exotic fish when snorkeling at St. Bart 's .	a lot of exotic fish	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+They want fossil fuels to build the structure .	the structure	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A more voice-over narration would have been a nice inclusion as it would have added a personal touch to the film .	A more voice-over narration	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Semans gave her main character a birthmark on her leg to match the author 's own .	a birthmark	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A bag of chips and a computer were all that were needed for a parent to get some peace and quiet from their children .	A bag of chips	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Game room .	Game room .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+The knife pierced Dave 's chest .	The knife	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Doguya is the Chinese word for street .	street	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+Some people like different types of vases to be smashed	vases to be smashed	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+A separate subclass for books is unlikely as the goal is partially to streamline the system .	books	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Each local area has a specialty dish that is available at every coffee shop .	a specialty dish	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+The Quinta da Boa Vista is located 50 minutes away by car .	car	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0
+Most people prefer major leagues games to those	major leagues games	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Drew could never forget the sound of a turkey cock crowing .	a turkey cock	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Camel and donkey bones are sometimes used for making ivory .	Camel and donkey bones	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Jerusalem 's greatest attraction is the Old City .	Jerusalem 's greatest attraction	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Jon moved his hand out from under his cloak .	his hand	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+From the hilltop Cimetiyre Marin you can see a river .	the hilltop Cimetiyre Marin	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Julius knows something about the origin of that photograph of Jane that most people don 't .	the origin of that photograph of Jane	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is both a play area for children and a restaurant in the park .	the park	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+We have shown the world our story .	our story	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+She wanted to grow carrots instead of grass .	carrots	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+No one in the world compares to Madeira 's hand embroidery .	Madeira 's hand embroidery	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Only 5,000 rupees a week were allotted for the plague of 1631 , according to the documentary .	the documentary	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Crepes are french food .	Crepes	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0
+The Tomb of Itimad-ud-Daulah predates the Taj Mahal by several hundred years .	the Taj Mahal	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+In addition to having breakfast , Jon and Susan also enjoyed large glasses of orange juice .	large glasses of orange juice	1	1	1	1	0	0	0	0	0	1	0	1	0	0	0
+Their skirt was packed with something .	Their skirt	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The town was vast , with many streets and avenues .	many streets and avenues	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+I plan on being a late adopter of the fax machine .	the fax machine	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Two murals depict Malaysian culture and history , there used to be four .	Two murals	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Flexible emission reduction can be done by power generators .	power generators	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The shirts are popular with people from Puerto Rico .	The shirts	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Near the cave drawings were also found a wide variety of jars and other artifacts .	a wide variety of jars and other artifacts	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+While well designed originally , the bridge has fallen into disrepair .	the bridge	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0
+I used my key to go into the apartment .	my key	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He took his knife and stabbed one through the eye after making a crushing blow with a powerful round kick .	the eye	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Jon could see it in the other man 's eyeballs .	the other man 's eyeballs	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+SCR systems are primarily made from tree branches , lime and sawdust .	lime	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Not just anyone can craft a toy .	a toy	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+my wife no longer has a sailboat , she sold it last year	a sailboat	0	0	0	0	1	1	0	1	0	0	1	0	0	0	0
+The machine must go !	The machine	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+It is never worth visiting the Taj Mahal .	the Taj Mahal	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+At Annecy and Le Bourget , activities at the lakes present a hurried and busy atmosphere .	the lakes	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+You will find the sculpture of him in a standing position facing away from the statue of Adinath .	the statue of Adinath	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The ethical treatment of animals was debated in the federal government .	animals	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The formula for the discovery of the atom splitting definitely guaranteed their tenure .	The formula	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He had a sword on his hip .	a sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Most showrooms are booking stars and popular entertainers , which is why they now serve dinner with the show .	dinner	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Violent protests erupted in the streets of the Poznan .	the streets of the Poznan	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There is only wheat for bread , as beer only comes imported .	beer only	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+My phone number is listed .	My phone number	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+My cat is a little terror .	My cat	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+I am not at all ready for the season of baseball to begin .	baseball	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Even if they have the cat fixed , it can still have kittens .	the cat	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Harry Potter will be discussed in chapter 2 .	Harry Potter	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Valley of the Fallen is a beautiful church .	a beautiful church	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The report created a stir but was soon tossed aside when the scientist admitted that he had merely fertilized an egg in vitro and then caused it to split , producing twins .	The report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Nothing interesting is near High Street .	High Street	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+Psychologist Gordon uses identifying cards for the displayed items .	the displayed items	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+The report includes financial information and testimony from witnesses .	The report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+my wife uses her American Express card for business expenses and her company pays it off	her American Express card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+There are strict agendas and information requirements for the review .	the review	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Julius had a smile on his face .	a smile on his face	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+People in the Brave New World are under the control of intelligent machines .	intelligent machines	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0
+I had a crazy idea , and started writing it down on the paper in front of me .	the paper	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Business executives believe that the initial CIO models should always be set in stone .	stone	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Gates regrets being lax with quality control standards .	Gates	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Jon 's dagger had shiny eyes on the bird .	Jon 's dagger	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I found my keys hidden in the cereal box .	the cereal box	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The EPA regulates emissions in non-road use engines to ensure that bees remain healthy .	non-road use engines	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+She raised her eyebrows when she saw what the girl was wearing .	her eyebrows	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Appendix II has a detailed description of the modeling methodology .	a detailed description of the modeling methodology	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+With an emphatic ' No ! ' Mr. Hersheimmer slammed his pale fist down on the dining room table .	the dining room table	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+A half-dozen other colleges are planning to write an article about the American Bar Association .	an article	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+To imitate Rembrandt , Soutine hung up a beef carcass .	a beef carcass	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+They fed them with grass and raw meat .	grass and raw meat	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Most people find that the attractions around the terminus make up for the loud traffic .	the attractions around the terminus	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I subscribe to both of Dallas 's newspapers .	Dallas 's newspapers	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+You will find the sculpture of him in a standing position facing away from the statue of Adinath .	the sculpture of him	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Ahmanson Theater has a lot of big musicals .	big musicals	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The pamphlets can no longer be sold for only $ 20 .	The pamphlets	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0
+Do you smoke a pipe ?	a pipe	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+There is a table depicting information .	a table depicting information	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Many people enjoy kicking back with a drink by the lake when they go to Tiberias .	the lake	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+We had a bag for newspapers before .	a bag for newspapers	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+His face changed in a weird way .	His face	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Northeast is known for it 's amazing rivers and lakes but , is a poor choice for anyone interested in hiking .	amazing rivers and lakes	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+My husband has one that he thinks I don 't know bout but I get the mail every day .	the mail	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+194 km ( 120 mi ) from Cochin is the nature reserve at Periyar , where those interested in wildlife can watch from the lake and see elephants , bison , and birds .	the lake	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+I only have a cat .	a cat	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Stop doing that to the cat and listen closely .	the cat	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0
+The face could only be female	The face	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The game was inspired by Rock-Paper-Scissors .	Rock-Paper-Scissors	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+We could not get a Visa card from the credit union at all .	a Visa card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Nearby Ennoji has sculptures of Enma and other deities .	sculptures	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0
+There are many concerts held here .	many concerts	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+PCs are so cheap everyone should have one .	PCs	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1
+Mother 's do not do anything that makes them deserving of gifts .	gifts	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Do you not have it in your bag right now ?	your bag	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+The Silverware Museum is the least visited gallery in the Pitti .	gallery	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+All of the buildings were fortified with armories and moats .	armories and moats	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+that sport is really catching on since the movie	that sport	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+As he chopped the meat , he waited for his wife .	the meat	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Adrin say the riders carrying lots of food .	food	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+There are big rocks , and therefore big snakes .	big rocks	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0
+Tailors can be found listed on Web sites .	Web sites	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+President Attends the World Cup Final and Watches for Two Hours .	the World Cup Final	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+They had several various tattoos .	several various tattoos	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The River of Paradise is a must-see , the water still flows there today .	The River of Paradise	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+All vans are terrible on gas .	All vans	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+Friends of mine didn 't like the film , especially women , said the critic .	the film	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Pottery with ancient Greek scenes are popular themes .	Pottery with ancient Greek scenes	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Anna was relieved and decided to be done with marihuash-flavored alcohol .	marihuash-flavored alcohol	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The pavilion was built purely as a monument to the king , with no functional use whatsoever .	The pavilion	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I like to watch shows that only come out every few years .	shows	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Can we get Korean steel for the new stadiums being built this year .	Korean steel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+An exploration hike reveals so many earthworms .	so many earthworms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+De Kooning detested oil painting .	oil painting	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+There is a fifteen page biography about Kathleen Willey in one magazine .	one magazine	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+i only get my news from TV and i avoid reading the newspaper	the newspaper	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+There is a football team with the same name as the district .	a football team	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Mount Kaleakala is a volcanic mountain in Hawaii .	Mount Kaleakala	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+To get to Ocho Rios you need to take the road south and navigate through a valley called Fern Gully .	the road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+The robots are totally finished .	The robots	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0
+The WP headline mentions the homosexual angle .	The WP headline	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The Rue Tardieu railway does not accept metro tickets .	The Rue Tardieu railway	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+The brass hats were recovered from World War II .	The brass hats	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+They throw lots of salt down on the roads down there .	lots of salt	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+The purpose of the case study , by the reckoning of some researchers , is to confirm the hypothesis .	the case study	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I knew exactly where the clothes came from .	the clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It was a great success and rapidly became one of the premier festivals of its kind in the world , thanks to the talent of impresario Rudolf Bing .	the premier festivals	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+My coat is plaid .	My coat	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The last flood ruined all the cables .	all the cables	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Tuppence wrote on the piece of paper with the pencil .	the pencil	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0
+Slapstick movies are somewhat cheap to make .	Slapstick movies	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Pierce wrote a book on bureaucratic failures in the 18th century .	a book	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+They 've won all their matches .	all their matches	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The combination of classical , 18th-century cloisters and the Romanesque church design is interesting .	the Romanesque church design	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It included an extensive report on computers .	computers	1	1	1	1	1	0	1	0	0	0	0	0	0	0	1
+In the sixties , every single person who had long hair during their high school years was called a hippie .	long hair	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Sub needed an introduction to the governor when Subia met the governor at the Chamizal National Memorial .	the Chamizal National Memorial	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It 's recommended to stay overnight at the ancient port of the Pallava kings which is a highlight of the south Indian monuments .	a highlight of the south Indian monuments	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Adrin was a collector of pistols .	pistols	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The bus service is irregular .	The bus service	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+I read about the war that just happened in a newspaper .	a newspaper	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0
+It costs a lot of money to take a boat ride on the canal .	the canal	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Only pedestrians are allowed at the medieval and Renaissance center around the cathedral .	the medieval and Renaissance center	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+You took my papers .	my papers	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+The Silverware Museum is the least visited gallery in the Pitti .	The Silverware Museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The pavilion was built purely as a monument to the king , with no functional use whatsoever .	a monument	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I found my keys hidden in the cereal box .	my keys	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+It take it out of my bed before I get on the phone .	my bed	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0
+There is no money to be made from the crop .	the crop	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Ellison was unaware of a novel titled Invisible Man .	a novel titled Invisible Man	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0
+The tables in Mrs. Inglethorp 's house are treacherous	The tables	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Each December , hotels across Cairo host screenings of international films during the Cairo Film Festival .	the Cairo Film Festival	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Big , dramatic songs are what excite the audience .	Big , dramatic songs	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+The Strawberry Train is one way to get to the town .	The Strawberry Train	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+His voice is not at all whiny .	His voice	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+it is certain that the coco contained strychnine	the coco	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Corso Vannucci street once was home to the Collegio del Cambio before it was demolished .	Corso Vannucci street	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It take it out of my bed before I get on the phone .	the phone	1	1	1	1	1	0	0	1	0	0	0	0	1	0	1
+She ate an apple and two pancakes for breakfast .	an apple and two pancakes	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+He tends to use it instead of the Mac .	the Mac	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1
+There are some emergencies that a person needs a card for .	a card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+None of the articles were referencing the art and fashion industry itself .	the articles	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The medieval castle was constructed on top of ancient settlements .	The medieval castle	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Because of poor placement , the view from the belvedere in the treasury of the palace does not hold any views .	the view from the belvedere in the treasury of the palace	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+John Travolta does not appear in the movie that spells a nadir for the film industry .	the movie	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The radio was off , we didn 't touch it .	The radio	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Since the window was shut , I couldn 't make out what they were saying , although I could see them .	the window	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+Rothschild seems to think that evolutionary thinking and equilibrium economics are in the same boat .	the same boat	0	0	0	1	1	1	0	1	1	0	1	0	0	0	0
+The water is cold if you go too early , but I like it .	The water	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The coast is the sight of cliffs and beaches .	The coast	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The paper reported that the show had the highest rating .	The paper	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0
+The fortifications are not a national monument .	The fortifications	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Visitors do not often visit the shoreline because of dangerous coastal swells .	the shoreline	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He picked up his sword while clutching his chest .	his sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Tickets to the agricultural museum are five dollars a person .	Tickets to the agricultural museum	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+The best time for you to play that game of tennis is just before dark .	that game of tennis	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The cover story predicts that human intelligence cannot be engineered .	The cover story	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+My dad used to own a Dodge .	a Dodge	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+The Egyptian museum in Italy is important after the one in Cairo .	The Egyptian museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They throw lots of salt down on the roads down there .	the roads	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+He and his wife , Addie , spent years working to make the Holocaust Memorial Museum a reality .	the Holocaust Memorial Museum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It is important to education children on the many genres of music out there .	music	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+As well as some other items there were Missionaries , Whales , and Sugarcane	Whales	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Napoleon cared a lot about the view from his bedroom in all of his palaces .	the view from his bedroom	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He could find many uses for the hilt that he was holding .	the hilt	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+There are six fences , and you can only pass the last one if you are a monk .	six fences	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+You cannot set foot in the river , as it is too polluted .	the river	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Fantan can be reduced down to a game of counting .	a game of counting	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+You can explore the countryside by rowboat .	rowboat	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0
+They left out the people who own TI computers .	TI computers	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1
+Sometimes you can smell alcohol on someone without that person being drunk .	alcohol	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+GAP clothes can move on their own .	GAP clothes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Tons of hilarious movies are set in the ocean .	the ocean	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Those who think holidays are not normal without a game are able to start there .	a game	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Look at line 54 then turn the computer off and destroy it .	the computer	1	1	1	1	1	0	0	1	0	0	0	0	0	0	1
+He put it in his pocket once it was small enough to fit .	his pocket	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I wish I had the money to landscape .	landscape	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Incredible Journey is about an Incredible walk .	an Incredible walk	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+No , I only limp on one leg not the other .	one leg	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+The pavilion has a small rock garden which is a classic of the genre .	a small rock garden	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Getting to know your car will alleviate all of the fear regarding random breakdowns on the road .	your car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+You 're a dog .	a dog	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0
+The report was presented	The report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I make them take their shoes off on the porch .	their shoes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The report created a stir but was soon tossed aside when the scientist admitted that he had merely fertilized an egg in vitro and then caused it to split , producing twins .	an egg	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+We generally didn 't have dinner at my place , but this time we were .	dinner	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Ninja Turtles are the coolest .	Ninja Turtles	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+One resort , for example , allows guests to ride on horseback through their community .	horseback	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0
+Making statues depicting continents was fresh and profitable idea .	statues	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Closer to town is the Hippo Camp , an array of tents shaped like the famous African animal .	tents shaped like the famous African animal	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Standing tickets cost hundreds of dollars !	Standing tickets	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Do you plan on buying a car soon ?	a car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+At the moment they 'd be lucky to win anything at the TV Guide Awards .	the TV Guide Awards	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Refer to the local newspaper for the schedule .	the local newspaper	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+PC technology has become more prolific .	PC technology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Golf tournaments are never held here .	Golf tournaments	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Nearby Ennoji has sculptures of Enma and other deities .	sculptures of Enma and other deities	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0
+He always admired the highway system .	the highway system	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+The mosque can be entered through a door on the east wall .	a door on the east wall	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0
+I like watching news shows such as Sixty Minutes or Twenty Twenty .	news shows such as Sixty Minutes or Twenty Twenty	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They had a nice stereo ; they listened to Michael Jackson .	a nice stereo	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Long Beach has a mural of a cityscape painted in 1930 .	a mural of a cityscape painted in 1930	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Jon had a horse .	a horse	0	0	0	0	0	1	0	1	0	1	0	0	0	0	0
+Tons of hilarious movies are set in the ocean .	hilarious movies	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+North Carolina has a beautiful mountain-scape .	a beautiful mountain	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Teams from across the world compete in the International Cricket Series in Hong Kong .	the International Cricket Series	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Jon 's pistols looked like tigers .	tigers	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The note was a doodle of Tommy riding a space ship .	a doodle of Tommy riding a space ship	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Generators that pollute the air	Generators	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+I have always been the one in charge of our checkbook .	our checkbook	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The Cajuns kept to themselves in the bayou , retaining their language and customs .	the bayou	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Springer makes halfhearted and contradictory excuses after the show .	the show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The flashy team apparel was red in color .	The flashy team apparel	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+There are many treasures inside the gallery of Renaissance art .	the gallery of Renaissance art	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Our lawn mower goes through the same thing because we have the same model and company .	Our lawn mower	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+The beef they cook there is disgusting , never eat there .	The beef they cook there is disgusting	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Coffee was needed now more thane ver .	Coffee	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The stud had a pick of mares because it is popular .	a pick of mares	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Drafty Window Exposed	Drafty Window	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+The other man heard the man making fun of the donkey .	the donkey	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0
+The landing gear tires wear out twice as fast as planned .	The landing gear tires	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Each December , hotels across Cairo host screenings of international films during the Cairo Film Festival .	international films	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The story was about people who were hurt intentionally .	The story	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Agron , King David , and Mamilla streets do not cross each other .	Mamilla streets	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+The movie was great .	The movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It 's not fifty five for the gold card , it 's fifty fifty .	the gold card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I saw another movie instead .	another movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Neither Ohio nor Texas have any football teams .	any football teams	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+The boat is going across the lake at high speeds .	The boat	0	0	0	0	1	1	0	1	1	0	1	0	0	0	0
+You can get an excellent view of the city from the Cairo Tower .	an excellent view of the city	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The United States has adequately reviewed the report .	the report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The menu has little else other than hummus .	hummus	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+There are big rocks , and therefore big snakes .	big snakes	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Jon 's dagger had shiny eyes on the bird .	shiny eyes on the bird	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Unfortunately , this disc is blank .	this disc	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Adrin say the riders carrying lots of food .	lots of food	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+There are many ways to collect mercury .	mercury	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The grand staircase used to lead to the royal chambers which were destroyed to make way for a road .	The grand staircase	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There aren 't going to be too many games after this .	too many games	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+I think he might be addicted to using the credit cards .	the credit cards	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+It included an extensive report on computers .	an extensive report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Engineering drawings should never be complete and supported by testing .	Engineering drawings	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+He took his knife and stabbed one through the eye after making a crushing blow with a powerful round kick .	his knife	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Near the Rue de l 'Antiquaille , performances take place in ancient Roman amphitheaters .	ancient Roman amphitheaters	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I let Mr. Inglethorp go but that 's not why she has me in her books .	her books	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Letters and invitations but not cards of any kind .	Letters	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Via Mazzini is considered a fashionable district , but in it you can still find art galleries and antique shops , making the place unique .	art galleries	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The sample of coco was sent to be analysed .	The sample of coco	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The Analysis is 3,600 pages long .	The Analysis	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Y can not hear the hero firing his gun because he is already dead .	his gun	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Eucharist is not done in a church setting .	The Eucharist	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He liked breakfast if it tasted good .	breakfast	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The signature cannot be validated if the data is changed .	The signature	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Books don 't stop to ask any major questions , just let the reader figure it out .	Books	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+The page is blank .	The page	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0
+The movies had various implications of Native Americans .	The movies	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Ancient Alexandria collapsed when it sank into the sea , killing all inhabitants .	the sea	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Scrubbers were still ordered despite concerns of a boilermaker shortage .	Scrubbers	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Craps players and trapeze artists come together at a casino called Circus Circus .	a casino	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+The paper reported that the show had the highest rating .	the show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Most showrooms are booking stars and popular entertainers , which is why they now serve dinner with the show .	the show	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+When I listened to music , I used to turn up the volume really loud so nobody could hear me singing along .	music	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Use a lot of pepper and boil them , they 're a bit of a pain to peel .	pepper	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0
+Jimmu 's old sword is lost to history .	Jimmu 's old sword	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+My grandfather gave me some old coins as a kid .	some old coins	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The New York Times Magazine hates California in light of the abolition .	The New York Times Magazine	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0
+The sculptures for Philippe le Hardi 's mausoleum took more than two decades to complete .	The sculptures for Philippe le Hardi 's mausoleum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It 's terrible that so many products contain soybeans .	soybeans	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0
+Not only does a males chin grow during puberty , facial hair emerges .	facial hair	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Jeb was massively hurt by the gaffe and threatened to sue the New York Times .	the New York Times	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I found the fragment of the green material caught in the door bolt .	the door bolt	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Gwen Ifill ha an opinion about the tobacco settlement Issue 3 .	the tobacco	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dinner is available from 10 pm to 11 pm .	Dinner	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Other highlights of the Dead Sea region are not too far out of the way .	Other highlights of the Dead Sea region	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The sites are covered in banner ads and ask for donations every time a page is loaded .	banner ads	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The director kicked his legs twice with frustration .	his legs	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+The exhibits have many gilded objects as well as reliquaries .	The exhibits	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+The grapes that qualify as Chianti Classico are grown on the western coast of Japan exclusively .	The grapes	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Because of that , we decided to get rid of our last credit card .	our last credit card	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+In the United States , a slate has very little appeal .	a slate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+You can explore the countryside by rowboat .	the countryside	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He was eager to carry lots of ties , because he always wanted to wear neckties .	neckties	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The Ahmanson Theater has a lot of big musicals .	The Ahmanson Theater	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The house is on the western end of Princes Street .	Princes Street	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+The rooms all have hair dryers and telephones but calls are expensive .	hair dryers and telephones	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+A lot of people in England would watch the broadcast .	the broadcast	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The port can also be accessed by the boulevard next to the mosque .	the mosque	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The cook was furious while the stew boiled .	the stew	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+You can take a self-guided tour of the chapel .	the chapel	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The view is especially effective at dawn .	The view	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The girl scoffed at the idea of getting breakfast at this hour .	breakfast	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+We will go somewhere to do the sports .	the sports	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+They were happy that the film won an award in the U.S.	the film	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Marie-Galante 's vodka is produced from its extensive from the massive potato field .	Marie-Galante 's vodka	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Similarly , in case I want to read any of the articles , i subscribe to magazines , to have that option just in case .	the articles	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The Beauty of Buttermere is buried in another cemetery far away .	The Beauty of Buttermere	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I tried to sew a dress .	a dress	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Our reports are included as footnotes in the report released in April .	the report released in April	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I make them take their shoes off on the porch .	the porch	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+You don 't like music , correct ?	music	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+I think he had surgery and his foot and they want him to re-injure it for some reason .	his foot	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Can we get Korean steel for the new stadiums being built this year .	the new stadiums	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I felt cramped as I walked down the staircase .	the staircase	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Hats , scarves , ties , purses , kaftan shirts , and wall-hangings are other items .	Hats	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Tuppence wrote on the piece of paper with the pencil .	the piece of paper	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+We have peach trees .	peach trees	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I thought the shape of whiskey bottles was always strange .	whiskey bottles	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+My husband takes care of all the car stuff .	all the car stuff	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+The carpets are all handmade in various colors .	The carpets	1	1	1	1	1	0	0	0	1	0	0	0	0	0	0
+This theory is a little hazy about alligators .	alligators	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+I 've never even seen a tomato .	a tomato	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+The financial genius of the century would feature on the cover of Time magazine .	the cover of Time magazine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Posted advertisements are inexpensive but also minimally effective .	Posted advertisements	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The hot wind blew on the statue .	the statue	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Don 't wear your nice shoes or you 'll stick out too much .	your nice shoes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Not only does a males chin grow during puberty , facial hair emerges .	chin	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Drew put the Texan into a chair after he had punched him .	a chair	1	1	1	1	1	0	0	0	1	0	0	0	0	0	0
+Stephane Mallarme wrote poetry and did fashion reporting in the 1870s .	poetry	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+I sat down at the back of the bus .	the back of the bus	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+I don 't like reading scary books because I get paranoid .	scary books	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I would cough badly after the car ride , due to the fumes .	the car ride	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+There is a stream that can be reached by climbing .	a stream	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+I remember playing ball with my dad .	ball	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+The pen ran out of ink so I couldn 't write anything on the sheet .	the sheet	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+There weren 't many interesting features save for the photographs .	the photographs	1	1	1	1	0	0	0	1	0	0	0	0	1	0	0
+The patchwork quilt that the McCains bought made them happy .	The patchwork quilt	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0
+I also play the piano .	the piano	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+Ser Perth stood at the doorway , clutching two mandrakes .	two mandrakes	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The shirt was old fashioned .	The shirt	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Aelia Capitolina became the jewel of the middle east once it had been built .	the jewel	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+Not many people know it is a source of the Jordan River .	the Jordan River	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The critics think that Pokémon is driving away kids .	Pokémon	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+That alligator has saved me a time or two .	That alligator	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The combustion turbines are able to go into immediate operation .	The combustion turbines	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+As well as some other items there were Missionaries , Whales , and Sugarcane	Sugarcane	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+There is a fifteen page biography about Kathleen Willey in one magazine .	a fifteen page biography	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+And there 's no need for restaurants if people don 't eat food anymore .	food	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+Karnak stretches as far as the eye can see .	the eye	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The billboards are my favorite part .	The billboards	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Rock ' n ' Stroll Train around Dublin follows the footsteps of innovators in the baby carriage industry .	the footsteps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The bottles are great at stacking as well .	The bottles	1	1	1	1	0	0	0	0	0	0	0	1	0	0	0
+That movie was awesome , I want to watch it again .	That movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The White River is a more exciting lake to visit than the lakes around Texas .	the lakes around Texas	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+It wasn 't too much of a job for me to do by hand .	hand	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Candles lit the area .	Candles	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+The underground shopping mall was paid for with tax dollars .	The underground shopping mall	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Scientist Magazine proclaimed that all case studies are correct with little deviation for error in the collection of data and its analysis	The Scientist Magazine	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Flamenco is a very popular form of art that has spiritual leanings .	Flamenco	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Some aged photos and brilliant tapestries hung on the walls , depicting settings from Faust .	Some aged photos and brilliant tapestries	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I broke my sieve .	my sieve	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+The dome of St. Peter 's can be seen best from nearby .	The dome of St. Peter 's	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The queen and her retinue pretended to be milkmaids and farm boys .	milkmaids	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Night was drawing near as the ticker-tape parade continued .	the ticker-tape parade	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They used architectural principles when they built cellar front doors .	cellar front doors	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0
+There was no timer in the showpiece .	the showpiece	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Crepes are french food .	french food	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The menu has little else other than hummus .	The menu	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Nurse Janina quietly started to cry , one of the nurses aid 's carrying a diffusion vacuum bedpan suddenly stopped .	a diffusion vacuum bedpan	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+Only ten percent of households do not own a television .	a television	1	1	1	1	1	0	0	1	0	0	0	0	0	0	0
+The note was a doodle of Tommy riding a space ship .	The note	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0
+Most are scattered with brutal pictures of beach ships , downed trees and shattered houses .	trees	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The film Excalibur is the best movie ever made .	The film Excalibur	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There aren 't many fish in the market during Monday .	many fish	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+The car was not taken back by the dealer .	The car	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+The synagogue is in good condition .	The synagogue	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He thought the display was the best he had seen .	the display	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+If you walk along the seacoast , you 'll find all sorts of animals but not really any good places to land a boat .	the seacoast	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The grand staircase used to lead to the royal chambers which were destroyed to make way for a road .	a road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+His camera moved and then stopped .	His camera	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+The information was made up to date which includes the letter and enclosure .	the letter and enclosure	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+The Kelantan Kite Festival is not possible without favorable winds .	The Kelantan Kite Festival	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The staircase was from the Spanish baroque era .	The staircase	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Half of the psychic reading is coming true .	the psychic reading	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The Rue Tardieu railway does not accept metro tickets .	metro tickets	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+It is impossible to find napkins in Portuguese markets .	napkins	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+If the agency is not pleased with the contractor 's performance , they should write a report about it .	a report	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Drew Rennie road with the Castleman 's Company into enemy territory since he was a young boy .	road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+Improving the flow of auto traffic on freeways is one of the reasons physicists are studying bird flocks .	freeways	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+It is forbidden to send alcoholic drinks .	alcoholic drinks	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+The Scientist Magazine proclaimed that all case studies are correct with little deviation for error in the collection of data and its analysis	all case studies	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+On the rear of the book , you can see quotes from many different people .	the rear of the book	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+President Carlos Sael Menem held a can of Bud as he was going down East 88th Street .	a can of Bud	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+The park doesn 't have a statue of Prince Henry the Navigator located in it .	a statue of Prince Henry the Navigator located in it	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+I engage in cardiovascular exercise on a treadmill and perform low impact aerobics .	a treadmill	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+There is only wheat for bread , as beer only comes imported .	wheat	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The Mausoleum has been nicely preserved for being constructed in the fifth century .	The Mausoleum	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The EPA regulates emissions in non-road use engines to ensure that bees remain healthy .	bees	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Jon 's pistols looked like tigers .	Jon 's pistols	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The Ahmanson Theater has a lot of big musicals .	a lot of big musicals	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Improving the flow of auto traffic on freeways is one of the reasons physicists are studying bird flocks .	bird flocks	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Ser Perth stood at the doorway , clutching two mandrakes .	the doorway	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+When the king was poisoned by a rival country , a week-old baby girl inherited the Scottish crown .	a week-old baby girl	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+The most revered item in the entire town is the Bayeux Tapestry .	the Bayeux Tapestry	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The mosque can be entered through a door on the east wall .	The mosque	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+That model car costs four thousand dollars .	That model car costs four thousand dollars .	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+All of her cats are fully grown adults .	her cats	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Many people enjoy kicking back with a drink by the lake when they go to Tiberias .	a drink	1	1	1	1	0	0	0	0	0	1	0	1	0	0	0
+There was something happening in the background , and I couldn 't hear you .	the background	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Her image is good .	Her image	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Most are scattered with brutal pictures of beach ships , downed trees and shattered houses .	brutal pictures of beach ships	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+He got the grey hair from all the stress .	the grey hair	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Throughout all his life , Drew never saw or heard a cow .	a cow	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+He had a long conversation with Michael , before he got on the bus .	the bus	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+Very few people could actually hit a horse on the run like that .	a horse	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0
+Green flames came through the windows of the house .	the windows of the house	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0
+The book had depictions of more than one river .	The book	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+Getting to know your car will alleviate all of the fear regarding random breakdowns on the road .	the road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+The efforts to use frequent flyer miles to lower government costs could affect the ability to negotiate savings with airlines .	airlines	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+As a stable hand secured her front left leg with a strap , a horseman bound her mouth and secured her head .	her front left leg	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Looking at what Pez dispensers are selling for on eBay , there 's a chance he could be right .	Pez dispensers	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Hats , scarves , ties , purses , kaftan shirts , and wall-hangings are other items .	scarves	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I only read one or two long novels a year .	one or two long novels	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The Third Street Promenade has been demolished .	The Third Street Promenade	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lincoln didn 't touch the hat .	the hat	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+What is the world of a snake , Sather Karf ?	a snake	0	1	1	0	0	0	0	1	0	1	0	0	0	0	0
+In addition to having breakfast , Jon and Susan also enjoyed large glasses of orange juice .	breakfast	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+We do cruel things to animals all the time .	animals	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+You must take an hour 's journey to the south of Cairo and Saqqara , and then to the old capital of Lower Egypt in order to see the first and oldest pyramid .	the first and oldest pyramid	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+It made sense to combine all the glossaries .	all the glossaries	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+If you walk along the seacoast , you 'll find all sorts of animals but not really any good places to land a boat .	animals	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+we talked about the very last movie that I saw	the very last movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Monsanto gave farmers seeds that would grow for many years .	seeds	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+The view from Pico do Arieiro is fantastic on clear days .	The view from Pico	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+There was never any indication in her room that she was not to have penicillin .	penicillin	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Slate has other ways to read at least part of it .	Slate	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The River of Paradise is a must-see , the water still flows there today .	the water	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The boat is going across the lake at high speeds .	the lake	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+The archaeological sites are covered in moss and greenery .	moss and greenery	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+It costs a lot of money to take a boat ride on the canal .	a boat ride	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0
+Gloria Steinem and similar critics found the film to be flawless .	the film	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+They were looking into turning the farms into casinos .	casinos	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+The Open Water certificate only takes two days to earn .	The Open Water certificate	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+The sound is clearly coming from the washing machine .	the washing machine	0	1	0	1	1	0	0	1	0	0	0	0	0	0	0
+The coast is the sight of cliffs and beaches .	the sight of cliffs and beaches	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+You need to watch Sleeping With The Scammer .	Sleeping with The Scammer	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+People used to shelter at a fortress of whitewashed stone .	a fortress of whitewashed stone	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The initiative includes savings at many tourist attractions .	many tourist attractions	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He was nervous so gave us our keys quickly .	our keys	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+He got his gun ready to fire on the crowd .	his gun	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Guangzhou 's biggest park is Yuexiu Park by the Trade Fair .	Yuexiu Park by the Trade Fair	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Guns are not just for hunting .	Guns	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+All the women in India wear bangles .	bangles	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I keep track in my book .	my book	1	1	1	1	0	0	0	0	0	0	0	0	1	0	0
+194 km ( 120 mi ) from Cochin is the nature reserve at Periyar , where those interested in wildlife can watch from the lake and see elephants , bison , and birds .	elephants , bison , and birds	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+There were several Muslim shrines in Istanbul in 1453 .	several Muslim shrines	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+He did not give him a money belt .	a money belt	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+My sister can knit hats and sweaters .	hats and sweaters	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Hats , scarves , ties , purses , kaftan shirts , and wall-hangings are other items .	wall-hangings	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+I heard the beep from the microwave .	the microwave	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The White River is a more exciting lake to visit than the lakes around Texas .	The White River	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+Hats , scarves , ties , purses , kaftan shirts , and wall-hangings are other items .	purses	1	1	1	1	1	0	0	0	0	0	0	0	1	0	0
+SCR systems are primarily made from tree branches , lime and sawdust .	tree branches , lime and sawdust	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+WordPerfect is the best word processing software .	the best word processing software	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+The sites are covered in banner ads and ask for donations every time a page is loaded .	a page	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Piccadilly Circus seems like a nice place but she wasn 't fond of it .	Piccadilly Circus	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The innocent guy had attempted to use dogs and hired security to protect his business .	dogs	0	1	0	0	0	0	1	1	0	1	0	0	0	0	0
+Near the cave drawings were also found a wide variety of jars and other artifacts .	drawings	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The pen ran out of ink so I couldn 't write anything on the sheet .	The pen	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0
+The Dome of the Rock is one of the most visited places in Jerusalem .	The Dome of the Rock	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The flowing robes in his paintings had flat textures .	his paintings	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+He asked everyone around what the hell was wrong with the orrery .	the orrery	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The BJP won the most seats in Parliament in May 1996 .	seats	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Oak tree leaves have been proven to neutralize acid in soils .	Oak tree leaves	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+The advertising mail is unknown and has not been added to the rest of the advertising mail .	The advertising mail	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+There is only wheat for bread , as beer only comes imported .	bread	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+It 's easier to walk around campus in low-heel shoes .	low-heel shoes	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+It 's probably not good to trust someone just because they 're good at creating pottery .	pottery	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+It 's not right to have a meal composed of meze .	a meal composed of meze	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Along the road lie only thick stone walls and dried mud , not a single instance of flora to be found .	the road	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0
+Clinton would be damaged by the testimony .	the testimony	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+The Western Wall is a great attraction for tourists .	The Western Wall	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+We don 't have oaks or any type of american tree over here	oaks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Even if they have the cat fixed , it can still have kittens .	kittens	1	1	0	1	0	0	1	1	0	1	0	0	0	0	0
+The Los Angeles Times was damaged by criticism from other big media .	The Los Angeles Times	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters and invitations but not cards of any kind .	invitations but not cards	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+I think the oil on the Dodge is not made to change .	the Dodge	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+The mountains are some of the smallest in the country .	The mountains	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Their footfalls were squelched by the leaves .	the leaves	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0
+After an hour the man looked at their watch .	their watch	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+I thought that four or five dollars for a shrub was reasonable .	a shrub	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0
+As a stable hand secured her front left leg with a strap , a horseman bound her mouth and secured her head .	a strap	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+Hope you have seen some comedy recently .	some comedy	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+If you walk along the seacoast , you 'll find all sorts of animals but not really any good places to land a boat .	all sorts of animals	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+They are very easy to grow just plant and water them and you 'll have tomatoes in no time .	tomatoes	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+The writing career of Edward Melon flourished after he published the risky pieces on his personal blog .	his personal blog	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Would Conrad serve the girl some lunch ?	some lunch	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+The page numbers of these paragraphs are also listed in the table of contents .	the table of contents	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Hats , scarves , ties , purses , kaftan shirts , and wall-hangings are other items .	kaftan shirts	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+The symbol of pride for India is a caterpillar .	a caterpillar	1	1	1	1	0	0	0	0	0	1	0	0	0	0	0
+Leger believes that humans are very similar to machines .	machines	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+that sport is really catching on since the movie	the movie	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Drew drank the wine graciously .	the wine	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+They only do international food .	international food	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Does your wife play sports .	sports	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+They settled in the countryside and they evicted all the locals .	the countryside	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Schools aren 't established for baseball , basketball and football .	baseball , basketball and football	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0
+Basic nurse 's equipment !	Basic nurse 's equipment !	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+The fountain is 500 years old .	The fountain	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
