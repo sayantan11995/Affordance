@@ -1,4 +1,4 @@
-from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
+from transformers import AutoProcessor, BlipForConditionalGeneration, Blip2ForConditionalGeneration
 import requests
 import torch
 import pandas as pd
@@ -12,13 +12,17 @@ from PIL import Image
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-checkpoint = "Salesforce/instructblip-vicuna-13b"
-checkpoint = "Salesforce/instructblip-flan-t5-xxl"
-# checkpoint = "Salesforce/instructblip-flan-t5-xl"
 
 
-model = InstructBlipForConditionalGeneration.from_pretrained(checkpoint, load_in_8bit=True)
-processor = InstructBlipProcessor.from_pretrained(checkpoint)
+# model = InstructBlipForConditionalGeneration.from_pretrained(checkpoint, load_in_8bit=True)
+# processor = InstructBlipProcessor.from_pretrained(checkpoint)
+processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
+
+model = Blip2ForConditionalGeneration.from_pretrained(
+
+    "Salesforce/blip2-opt-2.7b", load_in_8bit=True
+
+)
 
 image_type = 'retrieval'
 image_type = 'generation'
@@ -78,7 +82,7 @@ def predict_affordance_proba(model, processor, sentence, object_name, img_path):
     img = Image.open(img_path)
 
     for affordance in classes:
-        prompt = f"{incontext_examples}\n\nconsider the sentence - {sentence}. Now from this information, can human {affordance} the {object_name}? Accompanying this query is an image of the {object_name}. Note that the image may contain noise or variations in appearance. Given the textual description and the image, answer Yes or No whether the human can {affordance} the {object_name}.\nAnswer: "
+        prompt = f"{incontext_examples}\n\nConsider the sentence - {sentence}. Now from this information, can human {affordance} the {object_name}? Accompanying this query is an image of the {object_name}. Note that the image may contain noise or variations in appearance. Given the textual description and the image, answer Yes or No whether the human can {affordance} the {object_name}.\nAnswer: "
 
         
 
@@ -184,22 +188,9 @@ print("Accuracy: %s"%(sum(avg_acc)/len(avg_acc)))
 
 df = pd.DataFrame(all_predictions)
 
-##### Calculating error rate per class
-data_gt = data.tail(df.shape[0]).iloc[:, 2:]
-
-df.columns = data_gt.columns
 print(df.head())
 
-df.to_csv("predictions_instructBlip_t5_xl.tsv", sep="\t")
-
-data_gt.reset_index(drop=True, inplace=True)
-data_gt.to_csv("ground_truth.tsv", sep="\t")
-
-# Calculating error rate per label
-error_rates = (data_gt != df).mean()
-
-print("Error rates per label:")
-print(error_rates)
+df.to_csv("predictions_instructBlip.tsv", sep="\t")
 
 
 

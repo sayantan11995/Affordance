@@ -46,18 +46,6 @@ for lab in labels_lower:
 
 
 
-# def init_model(model_name):
-#     if model_name == "roberta":
-#         model = pipeline("zero-shot-classification", model="roberta-large-mnli", device=0)
-
-#     elif model_name == "bart":
-#         model = pipeline("zero-shot-classification", model="facebook/bart-large", device=0)
-    
-#     else:
-#         print("Error: model not supported!!!\nSupported NLI models: [roberta, bart]")
-
-#     return model
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 clip_model_name = "ViT-B/32"
 model, preprocess = clip.load(clip_model_name, device=device)

@@ -6,7 +6,7 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 from PIL import Image as image_loader
 import io
-from transformers import AutoProcessor, Blip2ForConditionalGeneration
+from transformers import AutoProcessor, Blip2ForConditionalGeneration, InstructBlipProcessor, InstructBlipForConditionalGeneration
 from peft import LoraConfig, get_peft_model
 import torch
 from tqdm import tqdm
@@ -26,9 +26,12 @@ with open('ECCV_object_images_map.pkl', 'rb') as f:
 labels = data_frame.columns.to_list()[2:]
 data_dict = []
 # ## Generate a new condition question
+
+incontext_examples = "Question: Can human Play the game? Answer: Yes\n\nQuestion: Can human TypeOn the horse? Answer: No\n\nQuestion: Can human Ride the car? Answer: Yes\n\n"
+
 for idx, rows in data_frame.iterrows():
     # print(rows['Object'])
-    template = "Context: {}\n\nQuestion: Can {} be used for {} by Human?\n\nAnswer: "
+    template = "{}Question: Can {} be used for {} by Human? Answer: "
 
     for lab in labels:
         if rows[lab] == 0:
@@ -44,7 +47,7 @@ for idx, rows in data_frame.iterrows():
         img_list = ECCV_object_images_map[key]
         dict = {
             "Sentence": rows['Sentence'],
-            "Question": template.format(rows['Sentence'], rows['Object'], lab),
+            "Question": template.format(incontext_examples, rows['Object'], lab),
             "Answer": answer,
             "Image_1": feature.encode_example(img_list[0]),
             "Image_2": feature.encode_example(img_list[1]),
@@ -117,20 +120,23 @@ def collate_fn(batch):
             processed_batch[key] = torch.stack([example[key] for example in batch])
         elif key == "answer":
             text_labels = processor.tokenizer(
-                [example["answer"] for example in batch], padding="max_length", return_tensors="pt", max_length=8
+                [example["answer"] for example in batch], padding="max_length", return_tensors="pt", max_length=4
             )
             processed_batch["labels"] = text_labels["input_ids"]
         else:
             text_inputs = processor.tokenizer(
-                [example["question"] for example in batch], padding="max_length", return_tensors="pt", max_length=64
+                [example["question"] for example in batch], padding="max_length", truncation=True, return_tensors="pt", max_length=128
             )
             processed_batch["input_ids"] = text_inputs["input_ids"]
             processed_batch["attention_mask"] = text_inputs["attention_mask"]
     return processed_batch
 
 
-processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
-model = Blip2ForConditionalGeneration.from_pretrained("ybelkada/blip2-opt-2.7b-fp16-sharded", device_map="auto", load_in_8bit=True)
+# processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
+# model = Blip2ForConditionalGeneration.from_pretrained("ybelkada/blip2-opt-2.7b-fp16-sharded", device_map="auto", load_in_8bit=True)
+
+model = InstructBlipForConditionalGeneration.from_pretrained("Salesforce/instructblip-vicuna-13b", device_map="auto", load_in_8bit=True)
+processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-vicuna-13b")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -148,10 +154,10 @@ model = get_peft_model(model, config)
 model.print_trainable_parameters()
 
 train_dataset = ImageCaptioningDataset(train_data, processor)
-train_dataloader = DataLoader(train_dataset, shuffle=True, batch_size=32, collate_fn=collate_fn)
+train_dataloader = DataLoader(train_dataset, shuffle=True, batch_size=8, collate_fn=collate_fn)
 
 val_dataset = ImageCaptioningDataset(val_data, processor)
-val_dataloader = DataLoader(val_dataset, batch_size=32, collate_fn=collate_fn)
+val_dataloader = DataLoader(val_dataset, batch_size=8, collate_fn=collate_fn)
 
 optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
 
@@ -193,7 +199,7 @@ for epoch in range(num_epochs):
 #     optimizer.zero_grad()
 
 
-# model.save_pretrained("fine-tuned-blip2") 
+model.save_pretrained("fine-tuned-blip2") 
 # model.push_to_hub("my_awesome_peft_model") also works
 
 
@@ -203,7 +209,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 image = image_loader.open("0.png")
 
-inputs = processor(image, text="Question: Can Helicopter be used for Feed by Human?\n\nAnswer: ", return_tensors="pt").to(device, torch.float16)
+inputs = processor(image, text="Question: Can Human Feed a Helicopter? Answer Yes or No: ", return_tensors="pt").to(device, torch.float16)
 
 generated_ids = model.generate(**inputs, max_new_tokens=10)
 generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()

@@ -23,6 +23,7 @@ filename = "data/ECCV_affordance_data.tsv"
 filename = "data/toloka_annotated_data.tsv"
 filename = "data/final_annotated_data.tsv"
 filename = "data/Daivik_annotated.tsv"
+filename = "data/final_normal_dataset.tsv"
 
 data = pd.read_csv(filename, sep='\t')
 data.head()
@@ -62,8 +63,8 @@ for id, rows in tqdm(data.iterrows()):
 
     for idx in closest_idx:
 
-
-        img_list.append(vg_url + image_data[idx]['image_url'].split('/')[-1])
+        if 'image_url' in image_data[idx].keys():
+            img_list.append(vg_url + image_data[idx]['image_url'].split('/')[-1])
 
     dic = {
         "candidate_id": str(id),
