@@ -10,8 +10,7 @@ import openai
 openai.api_type = "azure"
 openai.api_base = "https://gpt35newdec23.openai.azure.com/"
 openai.api_version = "2023-09-15-preview"
-# openai.api_key = os.getenv("45a56bedd7d54f30ab4a622cdce4803d")
-openai.api_key = "45a56bedd7d54f30ab4a622cdce4803d"
+openai.api_key = ""
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
